@@ -20,6 +20,17 @@ jobs:
           cache: gradle
       - run: chmod +x ./gradlew
       - run: ./gradlew --no-daemon clean build
+
+      - name: Show built files
+        run: ls -la build/libs
+
+      - name: Upload jar as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: glAntiElytraTarget
+          path: build/libs/*.jar
+          if-no-files-found: error
+
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
