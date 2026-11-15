@@ -1,13 +1,13 @@
-package studio.glace.glantielytratarget.alerts;
+package studio.yukilem.yukilem.alerts;
 
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import lombok.Generated;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Cache;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Caffeine;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
 
 public final class AlertService {
     private final PluginContext ctx;

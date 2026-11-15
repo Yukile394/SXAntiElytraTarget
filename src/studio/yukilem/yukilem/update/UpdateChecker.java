@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.update;
+package studio.yukilem.yukilem.update;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -17,11 +17,11 @@ import net.kyori.adventure.text.Component;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Cache;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Caffeine;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
 
 public final class UpdateChecker {
     private static final String GIST_URL = "https://gist.githubusercontent.com/Nixoly/17ee34dddbf91b9d728939224c08bb80/raw/gistfile1.txt";

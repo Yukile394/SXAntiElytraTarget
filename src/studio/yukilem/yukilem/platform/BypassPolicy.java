@@ -1,12 +1,12 @@
-package studio.glace.glantielytratarget.platform;
+package studio.yukilem.yukilem.platform;
 
 import java.util.UUID;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.platform.BedrockPlatformProbe;
-import studio.glace.glantielytratarget.platform.PlayerSessionCache;
-import studio.glace.glantielytratarget.platform.ServerHealthMonitor;
+import studio.yukilem.yukilem.platform.BedrockPlatformProbe;
+import studio.yukilem.yukilem.platform.PlayerSessionCache;
+import studio.yukilem.yukilem.platform.ServerHealthMonitor;
 
 public final class BypassPolicy {
     public static final String BYPASS_PERMISSION = "glantielytratarget.bypass";

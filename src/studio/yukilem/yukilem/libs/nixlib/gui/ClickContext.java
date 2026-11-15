@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.libs.nixlib.gui;
+package studio.yukilem.yukilem.libs.nixlib.gui;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryAction;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
 
 public final class ClickContext {
     private final InventoryClickEvent event;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.items;
+package studio.yukilem.yukilem.libs.nixlib.items;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -19,11 +19,11 @@ import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.PotionMeta;
-import studio.glace.glantielytratarget.libs.nixlib.items.HeadDatabaseSupport;
-import studio.glace.glantielytratarget.libs.nixlib.items.ItemMetaReflect;
-import studio.glace.glantielytratarget.libs.nixlib.items.ItemStackComponents;
-import studio.glace.glantielytratarget.libs.nixlib.items.SkullBuilder;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.libs.nixlib.items.HeadDatabaseSupport;
+import studio.yukilem.yukilem.libs.nixlib.items.ItemMetaReflect;
+import studio.yukilem.yukilem.libs.nixlib.items.ItemStackComponents;
+import studio.yukilem.yukilem.libs.nixlib.items.SkullBuilder;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
 
 public final class ConfigItem {
     private ConfigItem() {

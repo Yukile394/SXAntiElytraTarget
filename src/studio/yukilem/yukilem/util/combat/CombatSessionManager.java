@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util.combat;
+package studio.yukilem.yukilem.util.combat;
 
 import java.util.Map;
 import java.util.UUID;
@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.util.combat.CombatSession;
+import studio.yukilem.yukilem.util.combat.CombatSession;
 
 public final class CombatSessionManager {
     private final Map<UUID, CombatSession> sessions;

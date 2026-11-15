@@ -1,13 +1,13 @@
-package studio.glace.glantielytratarget.config;
+package studio.yukilem.yukilem.config;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.Nodes;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.YamlReader;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.YamlWriter;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.Nodes;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.YamlReader;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.YamlWriter;
 
 final class LanguageYamlMigration {
     private LanguageYamlMigration() {

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.Locale;
 import java.util.Map;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionContext;
-import studio.glace.glantielytratarget.libs.nixlib.menu.DefaultActions;
-import studio.glace.glantielytratarget.libs.nixlib.menu.MenuAction;
-import studio.glace.glantielytratarget.libs.nixlib.menu.Warnings;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionContext;
+import studio.yukilem.yukilem.libs.nixlib.menu.DefaultActions;
+import studio.yukilem.yukilem.libs.nixlib.menu.MenuAction;
+import studio.yukilem.yukilem.libs.nixlib.menu.Warnings;
 
 public final class ActionRegistry {
     private final Map<String, MenuAction> actions = new HashMap<String, MenuAction>();

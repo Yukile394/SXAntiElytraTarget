@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl.fwinput;
+package studio.yukilem.yukilem.checks.impl.fwinput;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -6,7 +6,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.checks.impl.fwinput.FWInputSession;
+import studio.yukilem.yukilem.checks.impl.fwinput.FWInputSession;
 
 public final class FWInputSessionLifecycle {
     private FWInputSessionLifecycle() {

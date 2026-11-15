@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.template;
+package studio.yukilem.yukilem.libs.nixlib.config.template;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,10 +13,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import studio.glace.glantielytratarget.libs.nixlib.config.ConfigException;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.YamlReader;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.YamlWriter;
-import studio.glace.glantielytratarget.libs.nixlib.version.SemanticVersion;
+import studio.yukilem.yukilem.libs.nixlib.config.ConfigException;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.YamlReader;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.YamlWriter;
+import studio.yukilem.yukilem.libs.nixlib.version.SemanticVersion;
 
 public final class TemplateSync {
    private TemplateSync() {

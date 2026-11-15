@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
@@ -20,20 +20,20 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.Check;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.CheckMetadata;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.checks.impl.LegitSwapLogic;
-import studio.glace.glantielytratarget.checks.impl.fwinput.FWInputFlagEvaluator;
-import studio.glace.glantielytratarget.checks.impl.fwinput.FWInputSession;
-import studio.glace.glantielytratarget.checks.impl.fwinput.FWInputSessionLifecycle;
-import studio.glace.glantielytratarget.packet.PacketContext;
-import studio.glace.glantielytratarget.packet.PacketRouter;
-import studio.glace.glantielytratarget.packet.TickReliability;
-import studio.glace.glantielytratarget.packet.handler.PacketHandler;
-import studio.glace.glantielytratarget.packet.state.MovementUncertaintyState;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.Check;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckMetadata;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.checks.impl.LegitSwapLogic;
+import studio.yukilem.yukilem.checks.impl.fwinput.FWInputFlagEvaluator;
+import studio.yukilem.yukilem.checks.impl.fwinput.FWInputSession;
+import studio.yukilem.yukilem.checks.impl.fwinput.FWInputSessionLifecycle;
+import studio.yukilem.yukilem.packet.PacketContext;
+import studio.yukilem.yukilem.packet.PacketRouter;
+import studio.yukilem.yukilem.packet.TickReliability;
+import studio.yukilem.yukilem.packet.handler.PacketHandler;
+import studio.yukilem.yukilem.packet.state.MovementUncertaintyState;
 
 @CheckMetadata(id=CheckId.FW_INPUT, configRoot="checks.fw-input-check", aliases={"TestCheck", "SilentSwapCheck"})
 public final class FWInputCheck

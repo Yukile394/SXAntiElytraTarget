@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.region;
+package studio.yukilem.yukilem.platform.region;
 
 import java.util.EnumSet;
 import java.util.HashSet;
@@ -8,8 +8,8 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.function.Consumer;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.config.ConfigView;
 
 record RegionProtectionSettings(boolean enabled, Set<String> disabledRegions, EnumSet<CheckId> disabledRegionChecks, boolean pvpDisabledRegionsEnabled, EnumSet<CheckId> pvpDisabledRegionChecks) {
     private static final String ROOT = "detection.worldguard.";

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.packet.state;
+package studio.yukilem.yukilem.packet.state;
 
 import lombok.Generated;
 

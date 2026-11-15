@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.packet;
+package studio.yukilem.yukilem.packet;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.protocol.player.User;

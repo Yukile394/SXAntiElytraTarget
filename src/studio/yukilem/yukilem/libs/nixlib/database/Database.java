@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.database;
+package studio.yukilem.yukilem.libs.nixlib.database;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -10,7 +10,7 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
-import studio.glace.glantielytratarget.libs.nixlib.database.RowMapper;
+import studio.yukilem.yukilem.libs.nixlib.database.RowMapper;
 
 public interface Database
 extends AutoCloseable {

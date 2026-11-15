@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.packet;
+package studio.yukilem.yukilem.packet;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.protocol.packettype.PacketType;
@@ -8,10 +8,10 @@ import com.github.retrooper.packetevents.wrapper.play.client.WrapperPlayClientPl
 import java.util.UUID;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.packet.MovementUncertaintyTracker;
-import studio.glace.glantielytratarget.packet.TickPacketUtil;
-import studio.glace.glantielytratarget.packet.state.MovementUncertaintyState;
-import studio.glace.glantielytratarget.packet.state.TickPacketState;
+import studio.yukilem.yukilem.packet.MovementUncertaintyTracker;
+import studio.yukilem.yukilem.packet.TickPacketUtil;
+import studio.yukilem.yukilem.packet.state.MovementUncertaintyState;
+import studio.yukilem.yukilem.packet.state.TickPacketState;
 
 public final class TickReliability {
     static final int RELIABLE_TICK_WINDOW = 3;

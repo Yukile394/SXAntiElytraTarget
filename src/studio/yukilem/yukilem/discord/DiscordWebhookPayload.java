@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.discord;
+package studio.yukilem.yukilem.discord;
 
 import java.time.Instant;
 import java.util.Iterator;
 import java.util.List;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.settings.DiscordSettings;
+import studio.yukilem.yukilem.config.settings.DiscordSettings;
 
 final class DiscordWebhookPayload {
    private DiscordWebhookPayload() {

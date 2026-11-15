@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.data;
+package studio.yukilem.yukilem.data;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -15,8 +15,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.database.Database;
-import studio.glace.glantielytratarget.libs.nixlib.database.RowMapper;
+import studio.yukilem.yukilem.libs.nixlib.database.Database;
+import studio.yukilem.yukilem.libs.nixlib.database.RowMapper;
 
 public final class FlagRepository {
     private static final String CREATE_TABLE_SQLITE = "CREATE TABLE IF NOT EXISTS aet_flags (uuid VARCHAR(36) PRIMARY KEY, total_violations INTEGER NOT NULL DEFAULT 0, name VARCHAR(16))";

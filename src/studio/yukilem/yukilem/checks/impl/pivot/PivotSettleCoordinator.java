@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl.pivot;
+package studio.yukilem.yukilem.checks.impl.pivot;
 
 import org.jetbrains.annotations.NotNull;
 

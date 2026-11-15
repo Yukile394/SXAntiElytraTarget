@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
 import java.util.Iterator;
 import java.util.Locale;
@@ -10,15 +10,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.libs.nixlib.gui.GuiNavigation;
-import studio.glace.glantielytratarget.libs.nixlib.gui.PagedGui;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionRegistry;
-import studio.glace.glantielytratarget.libs.nixlib.menu.Integrations;
-import studio.glace.glantielytratarget.libs.nixlib.menu.Warnings;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ChatUtils;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.libs.nixlib.utils.SoundUtils;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.GuiNavigation;
+import studio.yukilem.yukilem.libs.nixlib.gui.PagedGui;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionRegistry;
+import studio.yukilem.yukilem.libs.nixlib.menu.Integrations;
+import studio.yukilem.yukilem.libs.nixlib.menu.Warnings;
+import studio.yukilem.yukilem.libs.nixlib.utils.ChatUtils;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.libs.nixlib.utils.SoundUtils;
 
 final class DefaultActions {
     private DefaultActions() {

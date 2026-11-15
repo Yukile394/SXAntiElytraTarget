@@ -1,12 +1,12 @@
-package studio.glace.glantielytratarget.data;
+package studio.yukilem.yukilem.data;
 
 import java.io.File;
 import java.nio.file.Path;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.settings.DatabaseSettings;
-import studio.glace.glantielytratarget.libs.nixlib.database.Database;
-import studio.glace.glantielytratarget.libs.nixlib.database.MysqlDatabase;
-import studio.glace.glantielytratarget.libs.nixlib.database.SqliteDatabase;
+import studio.yukilem.yukilem.config.settings.DatabaseSettings;
+import studio.yukilem.yukilem.libs.nixlib.database.Database;
+import studio.yukilem.yukilem.libs.nixlib.database.MysqlDatabase;
+import studio.yukilem.yukilem.libs.nixlib.database.SqliteDatabase;
 
 public final class DatabaseService {
     private DatabaseService() {

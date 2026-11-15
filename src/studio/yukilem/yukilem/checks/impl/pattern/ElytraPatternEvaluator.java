@@ -1,12 +1,12 @@
-package studio.glace.glantielytratarget.checks.impl.pattern;
+package studio.yukilem.yukilem.checks.impl.pattern;
 
 import java.util.Arrays;
 import java.util.function.Consumer;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternSession;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternThresholds;
-import studio.glace.glantielytratarget.libs.nixlib.collection.LongSampleQueue;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternSession;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternThresholds;
+import studio.yukilem.yukilem.libs.nixlib.collection.LongSampleQueue;
 
 public final class ElytraPatternEvaluator {
     private ElytraPatternEvaluator() {

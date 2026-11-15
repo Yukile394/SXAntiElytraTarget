@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeAuthority;
+import studio.yukilem.yukilem.platform.runtime.RuntimeAuthority;
 
 public final class RuntimeProfile {
     private RuntimeProfile() {

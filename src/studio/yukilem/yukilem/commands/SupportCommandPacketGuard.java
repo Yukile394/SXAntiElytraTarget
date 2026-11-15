@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.commands;
+package studio.yukilem.yukilem.commands;
 
 import com.github.retrooper.packetevents.event.PacketListenerAbstract;
 import com.github.retrooper.packetevents.event.PacketListenerPriority;
@@ -16,10 +16,10 @@ import java.util.function.Supplier;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.SupportCommand;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.platform.PlayerSessionCache;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.SupportCommand;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.platform.PlayerSessionCache;
 
 public final class SupportCommandPacketGuard
 extends PacketListenerAbstract {

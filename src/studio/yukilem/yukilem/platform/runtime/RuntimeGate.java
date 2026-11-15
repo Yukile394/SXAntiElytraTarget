@@ -1,8 +1,8 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeAuthority;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.platform.runtime.RuntimeAuthority;
 
 public final class RuntimeGate {
     private RuntimeGate() {

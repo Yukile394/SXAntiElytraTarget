@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.config;
+package studio.yukilem.yukilem.config;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,8 +9,8 @@ import java.util.Optional;
 import java.util.function.Function;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.config.TypeCoercion;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.Nodes;
+import studio.yukilem.yukilem.libs.nixlib.config.TypeCoercion;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.Nodes;
 
 public final class ConfigView {
     private final Map<String, Object> data;

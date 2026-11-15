@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.punishments;
+package studio.yukilem.yukilem.punishments;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,10 +12,10 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.alerts.AlertService;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.punishments.PlaceholderContext;
+import studio.yukilem.yukilem.alerts.AlertService;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.punishments.PlaceholderContext;
 
 final class ViolationAlertDispatcher {
     private static final String ALERTS_PERMISSION = "glantielytratarget.alerts";

@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.punishments;
+package studio.yukilem.yukilem.punishments;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.punishments.PunishmentAction;
+import studio.yukilem.yukilem.punishments.PunishmentAction;
 
 public final class PunishmentCommand {
     private final int threshold;

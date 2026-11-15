@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.config.settings;
+package studio.yukilem.yukilem.config.settings;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.config.ConfigView;
 
 public record LagProtectionSettings(boolean tpsEnabled, double minTps, boolean pingEnabled, int maxPing, int minAffectedPlayers) {
     @NotNull

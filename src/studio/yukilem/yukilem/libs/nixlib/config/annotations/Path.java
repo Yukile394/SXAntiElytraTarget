@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.annotations;
+package studio.yukilem.yukilem.libs.nixlib.config.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

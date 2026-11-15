@@ -1,4 +1,4 @@
-package studio.glace;
+package studio.yukilem;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -27,8 +27,8 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 import java.util.zip.GZIPOutputStream;
 import javax.net.ssl.HttpsURLConnection;
-import studio.glace.charts.CustomChart;
-import studio.glace.json.JsonObjectBuilder;
+import studio.yukilem.charts.CustomChart;
+import studio.yukilem.json.JsonObjectBuilder;
 
 public class MetricsBase {
     public static final String METRICS_VERSION = "3.2.1";

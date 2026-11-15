@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.yaml;
+package studio.yukilem.yukilem.libs.nixlib.config.yaml;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;

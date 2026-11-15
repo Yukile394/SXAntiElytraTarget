@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.items;
+package studio.yukilem.yukilem.libs.nixlib.items;
 
 import java.lang.reflect.Method;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.events;
+package studio.yukilem.yukilem.libs.nixlib.events;
 
 import java.lang.reflect.Method;
 import java.util.Comparator;

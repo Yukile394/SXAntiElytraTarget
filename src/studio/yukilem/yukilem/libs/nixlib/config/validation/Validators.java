@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.validation;
+package studio.yukilem.yukilem.libs.nixlib.config.validation;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;

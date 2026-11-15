@@ -1,8 +1,8 @@
-package studio.glace.glantielytratarget.libs.nixlib.gui;
+package studio.yukilem.yukilem.libs.nixlib.gui;
 
 import java.util.function.Consumer;
 import org.bukkit.inventory.ItemStack;
-import studio.glace.glantielytratarget.libs.nixlib.gui.ClickContext;
+import studio.yukilem.yukilem.libs.nixlib.gui.ClickContext;
 
 public final class GuiItem {
     private final ItemStack item;

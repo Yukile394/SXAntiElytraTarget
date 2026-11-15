@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.util.Iterator;
 import java.util.List;
@@ -7,15 +7,15 @@ import java.util.function.Consumer;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.libs.nixlib.gui.ClickContext;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.menu.ConfirmRequest;
-import studio.glace.glantielytratarget.menu.MenuActionService;
-import studio.glace.glantielytratarget.menu.MenuAudio;
-import studio.glace.glantielytratarget.menu.MenuItemFactory;
-import studio.glace.glantielytratarget.menu.Menus;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.libs.nixlib.gui.ClickContext;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.menu.ConfirmRequest;
+import studio.yukilem.yukilem.menu.MenuActionService;
+import studio.yukilem.yukilem.menu.MenuAudio;
+import studio.yukilem.yukilem.menu.MenuItemFactory;
+import studio.yukilem.yukilem.menu.Menus;
 
 final class ConfirmMenu {
     private final PluginContext ctx;

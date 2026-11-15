@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.listener;
+package studio.yukilem.yukilem.listener;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -9,7 +9,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandSendEvent;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
 
 public final class CommandPriorityListener
 implements Listener {

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.punishments;
+package studio.yukilem.yukilem.punishments;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -32,9 +32,9 @@ public final class CheckMatcher {
             Iterator<String> iterator3 = iterator2;
             String string4 = iterator3.next();
             if (string4 != null && !string4.trim().startsWith("!")) {
-                string4 = studio.glace.glantielytratarget.checks.CheckId.normalize(string4.trim());
+                string4 = studio.yukilem.yukilem.checks.CheckId.normalize(string4.trim());
             } else if (string4 != null) {
-                string4 = "!" + studio.glace.glantielytratarget.checks.CheckId.normalize(string4.trim().substring(1).trim());
+                string4 = "!" + studio.yukilem.yukilem.checks.CheckId.normalize(string4.trim().substring(1).trim());
             }
             String string5 = string4;
             if (string5 == null || (string3 = (string2 = (string = string4).trim())).isEmpty()) continue;
@@ -68,7 +68,7 @@ public final class CheckMatcher {
     }
 
     public boolean matches(@NotNull String string) {
-        string = studio.glace.glantielytratarget.checks.CheckId.normalize(string);
+        string = studio.yukilem.yukilem.checks.CheckId.normalize(string);
         if (this.excludes.contains(string)) {
             return false;
         }

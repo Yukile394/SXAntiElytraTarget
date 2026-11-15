@@ -1,8 +1,8 @@
-package studio.glace.glantielytratarget.commands;
+package studio.yukilem.yukilem.commands;
 
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
 
 public interface SubCommand {
     public boolean execute(@NotNull PluginContext pluginContext1, @NotNull CommandSender commandSender2, @NotNull String[] strings3);

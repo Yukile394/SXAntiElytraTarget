@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config;
+package studio.yukilem.yukilem.libs.nixlib.config;
 
 import java.util.ArrayList;
 import java.util.Collection;

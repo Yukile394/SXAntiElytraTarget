@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.discord;
+package studio.yukilem.yukilem.discord;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -7,13 +7,13 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.config.settings.DiscordSettings;
-import studio.glace.glantielytratarget.discord.DiscordWebhookPayload;
-import studio.glace.glantielytratarget.discord.DiscordWebhookTransport;
-import studio.glace.glantielytratarget.discord.WebhookMessage;
-import studio.glace.glantielytratarget.glAntiElytraTarget;
-import studio.glace.glantielytratarget.punishments.PlaceholderContext;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.config.settings.DiscordSettings;
+import studio.yukilem.yukilem.discord.DiscordWebhookPayload;
+import studio.yukilem.yukilem.discord.DiscordWebhookTransport;
+import studio.yukilem.yukilem.discord.WebhookMessage;
+import studio.yukilem.yukilem.glAntiElytraTarget;
+import studio.yukilem.yukilem.punishments.PlaceholderContext;
 
 public final class DiscordWebhookService {
     private static final long RATE_LIMIT_DELAY_MS = 1000L;

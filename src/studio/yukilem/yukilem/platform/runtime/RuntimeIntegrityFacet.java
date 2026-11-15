@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import java.util.Timer;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeAuthority;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeIntegrityHost;
+import studio.yukilem.yukilem.platform.runtime.RuntimeAuthority;
+import studio.yukilem.yukilem.platform.runtime.RuntimeIntegrityHost;
 
 final class RuntimeIntegrityFacet
 implements RuntimeIntegrityHost {

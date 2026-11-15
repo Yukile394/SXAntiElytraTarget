@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.packet;
+package studio.yukilem.yukilem.packet;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.manager.server.ServerVersion;
@@ -9,8 +9,8 @@ import com.github.retrooper.packetevents.protocol.player.User;
 import com.github.retrooper.packetevents.wrapper.play.client.WrapperPlayClientPlayerFlying;
 import java.util.UUID;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.packet.state.TickPacketState;
-import studio.glace.glantielytratarget.platform.ClientVersionResolver;
+import studio.yukilem.yukilem.packet.state.TickPacketState;
+import studio.yukilem.yukilem.platform.ClientVersionResolver;
 
 public final class TickPacketUtil {
     private TickPacketUtil() {

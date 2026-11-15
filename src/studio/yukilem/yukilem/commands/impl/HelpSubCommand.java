@@ -1,14 +1,14 @@
-package studio.glace.glantielytratarget.commands.impl;
+package studio.yukilem.yukilem.commands.impl;
 
 import java.util.Iterator;
 import java.util.Map;
 import net.kyori.adventure.text.Component;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.CommandPlaceholders;
-import studio.glace.glantielytratarget.commands.SubCommand;
-import studio.glace.glantielytratarget.config.LanguageService;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.CommandPlaceholders;
+import studio.yukilem.yukilem.commands.SubCommand;
+import studio.yukilem.yukilem.config.LanguageService;
 
 public final class HelpSubCommand
 implements SubCommand {

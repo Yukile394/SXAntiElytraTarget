@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.discord;
+package studio.yukilem.yukilem.discord;
 
 import java.io.OutputStream;
 import java.net.HttpURLConnection;

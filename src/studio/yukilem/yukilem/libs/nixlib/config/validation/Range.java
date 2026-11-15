@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.validation;
+package studio.yukilem.yukilem.libs.nixlib.config.validation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

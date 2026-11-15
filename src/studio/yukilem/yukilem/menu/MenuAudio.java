@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,10 +13,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.inventory.InventoryType;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.libs.nixlib.gui.GuiNavigation;
-import studio.glace.glantielytratarget.menu.AetSounds;
-import studio.glace.glantielytratarget.menu.MenuActionService;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.GuiNavigation;
+import studio.yukilem.yukilem.menu.AetSounds;
+import studio.yukilem.yukilem.menu.MenuActionService;
 
 final class MenuAudio {
     private static final Set<UUID> SUPPRESS_CLOSE = ConcurrentHashMap.newKeySet();

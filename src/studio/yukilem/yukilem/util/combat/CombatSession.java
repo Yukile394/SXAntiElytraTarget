@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util.combat;
+package studio.yukilem.yukilem.util.combat;
 
 public final class CombatSession {
     private int hitCount;

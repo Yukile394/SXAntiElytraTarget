@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.gui;
+package studio.yukilem.yukilem.libs.nixlib.gui;
 
 import java.util.Set;
 import java.util.UUID;

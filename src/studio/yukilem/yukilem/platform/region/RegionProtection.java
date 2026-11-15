@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.region;
+package studio.yukilem.yukilem.platform.region;
 
 import java.util.UUID;
 import java.util.logging.Logger;
@@ -6,8 +6,8 @@ import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.CheckId;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.CheckId;
 
 public final class RegionProtection {
    private RegionProtection() {

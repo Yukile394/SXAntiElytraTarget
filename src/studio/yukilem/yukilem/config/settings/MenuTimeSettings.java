@@ -1,9 +1,9 @@
-package studio.glace.glantielytratarget.config.settings;
+package studio.yukilem.yukilem.config.settings;
 
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.config.ConfigView;
 
 public record MenuTimeSettings(@NotNull String datePattern, @NotNull String secondSuffix, @NotNull String minuteSuffix, @NotNull String hourSuffix, @NotNull String daySuffix, int timerFormat) {
     private static final String DEFAULT_DATE_PATTERN = "yyyy/MM/dd HH:mm:ss";

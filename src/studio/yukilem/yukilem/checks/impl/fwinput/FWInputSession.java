@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.checks.impl.fwinput;
+package studio.yukilem.yukilem.checks.impl.fwinput;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.checks.impl.LegitSwapLogic;
+import studio.yukilem.yukilem.checks.impl.LegitSwapLogic;
 
 public final class FWInputSession {
     public boolean valid = true;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks;
+package studio.yukilem.yukilem.checks;
 
 public final class GlideAck {
     static final long ACK_MARGIN_MS = 150L;

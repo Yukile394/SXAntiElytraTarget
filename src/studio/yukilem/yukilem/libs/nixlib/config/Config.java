@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config;
+package studio.yukilem.yukilem.libs.nixlib.config;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -14,16 +14,16 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import studio.glace.glantielytratarget.libs.nixlib.config.ConfigException;
-import studio.glace.glantielytratarget.libs.nixlib.config.ConfigField;
-import studio.glace.glantielytratarget.libs.nixlib.config.TypeCoercion;
-import studio.glace.glantielytratarget.libs.nixlib.config.annotations.ConfigVersion;
-import studio.glace.glantielytratarget.libs.nixlib.config.migration.MigrationRegistry;
-import studio.glace.glantielytratarget.libs.nixlib.config.validation.ValidationException;
-import studio.glace.glantielytratarget.libs.nixlib.config.validation.Validators;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.Nodes;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.YamlReader;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.YamlWriter;
+import studio.yukilem.yukilem.libs.nixlib.config.ConfigException;
+import studio.yukilem.yukilem.libs.nixlib.config.ConfigField;
+import studio.yukilem.yukilem.libs.nixlib.config.TypeCoercion;
+import studio.yukilem.yukilem.libs.nixlib.config.annotations.ConfigVersion;
+import studio.yukilem.yukilem.libs.nixlib.config.migration.MigrationRegistry;
+import studio.yukilem.yukilem.libs.nixlib.config.validation.ValidationException;
+import studio.yukilem.yukilem.libs.nixlib.config.validation.Validators;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.Nodes;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.YamlReader;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.YamlWriter;
 
 public abstract class Config {
     private final List<ConfigField> fields;

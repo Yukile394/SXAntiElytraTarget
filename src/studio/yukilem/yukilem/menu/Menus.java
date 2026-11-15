@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +8,8 @@ import java.util.Map;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.menu.MenuItemFactory;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.menu.MenuItemFactory;
 
 final class Menus {
     private Menus() {

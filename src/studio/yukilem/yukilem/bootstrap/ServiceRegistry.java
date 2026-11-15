@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.bootstrap;
+package studio.yukilem.yukilem.bootstrap;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ import java.util.function.UnaryOperator;
 import org.bukkit.event.inventory.ClickType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.gui.ClickContext;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionContext;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionRegistry;
+import studio.yukilem.yukilem.libs.nixlib.gui.ClickContext;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionContext;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionRegistry;
 
 public final class ClickActions {
     private final List<String> all;

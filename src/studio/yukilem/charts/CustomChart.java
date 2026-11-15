@@ -1,7 +1,7 @@
-package studio.glace.charts;
+package studio.yukilem.charts;
 
 import java.util.function.BiConsumer;
-import studio.glace.json.JsonObjectBuilder;
+import studio.yukilem.json.JsonObjectBuilder;
 
 public abstract class CustomChart {
     private final String chartId;

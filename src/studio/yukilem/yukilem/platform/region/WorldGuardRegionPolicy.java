@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.region;
+package studio.yukilem.yukilem.platform.region;
 
 import com.sk89q.worldedit.bukkit.BukkitAdapter;
 import com.sk89q.worldguard.LocalPlayer;
@@ -25,17 +25,17 @@ import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.PluginManager;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.CheckRegistry;
-import studio.glace.glantielytratarget.config.ConfigView;
-import studio.glace.glantielytratarget.glAntiElytraTarget;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.platform.region.RegionProtectionPolicy;
-import studio.glace.glantielytratarget.platform.region.RegionProtectionSettings;
-import studio.glace.glantielytratarget.platform.region.WorldGuardPvpBridgeListener;
-import studio.glace.glantielytratarget.platform.region.WorldGuardPvpRules;
-import studio.glace.glantielytratarget.util.combat.TargetTracker;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckRegistry;
+import studio.yukilem.yukilem.config.ConfigView;
+import studio.yukilem.yukilem.glAntiElytraTarget;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.platform.region.RegionProtectionPolicy;
+import studio.yukilem.yukilem.platform.region.RegionProtectionSettings;
+import studio.yukilem.yukilem.platform.region.WorldGuardPvpBridgeListener;
+import studio.yukilem.yukilem.platform.region.WorldGuardPvpRules;
+import studio.yukilem.yukilem.util.combat.TargetTracker;
 
 final class WorldGuardRegionPolicy
 implements RegionProtectionPolicy {

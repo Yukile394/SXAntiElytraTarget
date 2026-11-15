@@ -1,14 +1,14 @@
-package studio.glace.glantielytratarget.commands.impl;
+package studio.yukilem.yukilem.commands.impl;
 
 import java.util.UUID;
 import net.kyori.adventure.text.Component;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.alerts.AlertService;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.SubCommand;
-import studio.glace.glantielytratarget.config.LanguageService;
+import studio.yukilem.yukilem.alerts.AlertService;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.SubCommand;
+import studio.yukilem.yukilem.config.LanguageService;
 
 public final class AlertSubCommand
 implements SubCommand {

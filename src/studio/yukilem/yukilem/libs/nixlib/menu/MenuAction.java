@@ -1,6 +1,6 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionContext;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionContext;
 
 @FunctionalInterface
 public interface MenuAction {

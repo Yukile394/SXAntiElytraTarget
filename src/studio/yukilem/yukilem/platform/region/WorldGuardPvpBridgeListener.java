@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.region;
+package studio.yukilem.yukilem.platform.region;
 
 import com.sk89q.worldguard.bukkit.protection.events.DisallowedPVPEvent;
 import org.bukkit.entity.Player;
@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.platform.region.WorldGuardRegionPolicy;
+import studio.yukilem.yukilem.platform.region.WorldGuardRegionPolicy;
 
 final class WorldGuardPvpBridgeListener
 implements Listener {

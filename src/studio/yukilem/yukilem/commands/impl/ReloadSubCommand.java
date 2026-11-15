@@ -1,18 +1,18 @@
-package studio.glace.glantielytratarget.commands.impl;
+package studio.yukilem.yukilem.commands.impl;
 
 import java.util.logging.Logger;
 import net.kyori.adventure.text.Component;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.LicenseBootstrap;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.SubCommand;
-import studio.glace.glantielytratarget.config.ConfigurationService;
-import studio.glace.glantielytratarget.data.ViolationRepository;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeGate;
-import studio.glace.glantielytratarget.util.combat.TargetTracker;
+import studio.yukilem.yukilem.LicenseBootstrap;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.SubCommand;
+import studio.yukilem.yukilem.config.ConfigurationService;
+import studio.yukilem.yukilem.data.ViolationRepository;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.platform.runtime.RuntimeGate;
+import studio.yukilem.yukilem.util.combat.TargetTracker;
 
 public final class ReloadSubCommand implements SubCommand {
    public ReloadSubCommand() {

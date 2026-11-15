@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.world;
+package studio.yukilem.yukilem.libs.nixlib.world;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -7,7 +7,7 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerType;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerType;
 
 public final class WorldThreadAccess {
    private static final boolean MULTITHREADED = ServerType.detect().isMultithreaded();

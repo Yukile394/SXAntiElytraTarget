@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 final class ConsistencyLogic {
     static final int TRANSITION_SETTLE_TICKS = 2;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.command;
+package studio.yukilem.yukilem.libs.nixlib.command;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.Locale;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandAction;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandContext;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandSpec;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandAction;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandContext;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandSpec;
 
 public final class NixCommand
 extends Command {

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config;
+package studio.yukilem.yukilem.libs.nixlib.config;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.Set;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.utils.NumberUtils;
+import studio.yukilem.yukilem.libs.nixlib.utils.NumberUtils;
 
 public final class MapCoercion {
    private MapCoercion() {

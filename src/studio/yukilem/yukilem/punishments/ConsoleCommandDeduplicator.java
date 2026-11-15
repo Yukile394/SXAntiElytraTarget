@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.punishments;
+package studio.yukilem.yukilem.punishments;
 
 import java.util.UUID;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.TimeUnit;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Cache;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Caffeine;
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
 
 final class ConsoleCommandDeduplicator {
     private static final long CLAIM_TTL_SECONDS = 5L;

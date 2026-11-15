@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.data;
+package studio.yukilem.yukilem.data;
 
 import java.util.UUID;
 import org.jetbrains.annotations.NotNull;

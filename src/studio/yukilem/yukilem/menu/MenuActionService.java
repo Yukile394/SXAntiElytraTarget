@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.lang.invoke.CallSite;
 import java.util.HashMap;
@@ -12,20 +12,20 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.config.LanguageService;
-import studio.glace.glantielytratarget.libs.nixlib.gui.ClickContext;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.libs.nixlib.gui.GuiNavigation;
-import studio.glace.glantielytratarget.libs.nixlib.gui.PagedGui;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionContext;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ActionRegistry;
-import studio.glace.glantielytratarget.libs.nixlib.menu.ClickActions;
-import studio.glace.glantielytratarget.libs.nixlib.menu.MenuAction;
-import studio.glace.glantielytratarget.menu.ConfirmRequest;
-import studio.glace.glantielytratarget.menu.MenuAudio;
-import studio.glace.glantielytratarget.menu.MenuItemFactory;
-import studio.glace.glantielytratarget.menu.MenuManager;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.config.LanguageService;
+import studio.yukilem.yukilem.libs.nixlib.gui.ClickContext;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.GuiNavigation;
+import studio.yukilem.yukilem.libs.nixlib.gui.PagedGui;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionContext;
+import studio.yukilem.yukilem.libs.nixlib.menu.ActionRegistry;
+import studio.yukilem.yukilem.libs.nixlib.menu.ClickActions;
+import studio.yukilem.yukilem.libs.nixlib.menu.MenuAction;
+import studio.yukilem.yukilem.menu.ConfirmRequest;
+import studio.yukilem.yukilem.menu.MenuAudio;
+import studio.yukilem.yukilem.menu.MenuItemFactory;
+import studio.yukilem.yukilem.menu.MenuManager;
 
 public final class MenuActionService {
     public static final String PERM_TELEPORT = "glantielytratarget.profile.teleport";

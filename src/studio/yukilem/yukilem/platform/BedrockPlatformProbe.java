@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform;
+package studio.yukilem.yukilem.platform;
 
 import java.util.UUID;
 import org.bukkit.Bukkit;

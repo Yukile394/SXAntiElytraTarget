@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import java.util.Timer;
 import java.util.concurrent.atomic.AtomicLong;

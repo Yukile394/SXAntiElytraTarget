@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.command;
+package studio.yukilem.yukilem.libs.nixlib.command;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,8 +7,8 @@ import java.util.Iterator;
 import java.util.List;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandAction;
-import studio.glace.glantielytratarget.libs.nixlib.command.SuggestionProvider;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandAction;
+import studio.yukilem.yukilem.libs.nixlib.command.SuggestionProvider;
 
 public final class CommandSpec {
     private final String label;

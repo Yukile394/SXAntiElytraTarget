@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.libs.nixlib.placeholders;
+package studio.yukilem.yukilem.libs.nixlib.placeholders;
 
 import java.util.Objects;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.placeholders.PlaceholderRegistry;
+import studio.yukilem.yukilem.libs.nixlib.placeholders.PlaceholderRegistry;
 
 public final class PlaceholderApiBridge {
     private PlaceholderApiBridge() {

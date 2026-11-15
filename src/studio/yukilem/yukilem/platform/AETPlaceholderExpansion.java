@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform;
+package studio.yukilem.yukilem.platform;
 
 import com.github.retrooper.packetevents.protocol.player.User;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.UUID;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.data.FlagRepository;
-import studio.glace.glantielytratarget.platform.ClientVersionResolver;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.data.FlagRepository;
+import studio.yukilem.yukilem.platform.ClientVersionResolver;
 
 public final class AETPlaceholderExpansion
 extends PlaceholderExpansion {

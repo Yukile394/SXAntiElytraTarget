@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.libs.nixlib.command;
+package studio.yukilem.yukilem.libs.nixlib.command;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandContext;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandContext;
 
 @FunctionalInterface
 public interface CommandAction {

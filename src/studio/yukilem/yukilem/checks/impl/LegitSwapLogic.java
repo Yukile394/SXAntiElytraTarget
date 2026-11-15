@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 import org.jetbrains.annotations.NotNull;
 

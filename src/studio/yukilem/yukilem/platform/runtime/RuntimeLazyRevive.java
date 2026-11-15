@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeAuthority;
+import studio.yukilem.yukilem.platform.runtime.RuntimeAuthority;
 
 final class RuntimeLazyRevive {
     private static final long REVIVE_COOLDOWN_NS = 300000000000L;

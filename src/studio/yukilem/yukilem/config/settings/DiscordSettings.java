@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.config.settings;
+package studio.yukilem.yukilem.config.settings;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +10,7 @@ import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.config.ConfigView;
 
 public record DiscordSettings(boolean enabled, String webhookUrl, String username, String avatarUrl, List<String> content, Embed embed) {
     private static final int DEFAULT_COLOR = 0xFF3333;

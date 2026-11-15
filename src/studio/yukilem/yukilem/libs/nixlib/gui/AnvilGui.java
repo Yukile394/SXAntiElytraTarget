@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.gui;
+package studio.yukilem.yukilem.libs.nixlib.gui;
 
 import java.util.Map;
 import java.util.UUID;
@@ -17,8 +17,8 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryView;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import studio.glace.glantielytratarget.libs.nixlib.NixLib;
-import studio.glace.glantielytratarget.libs.nixlib.gui.GuiNavigation;
+import studio.yukilem.yukilem.libs.nixlib.NixLib;
+import studio.yukilem.yukilem.libs.nixlib.gui.GuiNavigation;
 
 public final class AnvilGui {
     private static final int RESULT_SLOT = 2;

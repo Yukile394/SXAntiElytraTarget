@@ -1,4 +1,4 @@
-package studio.glace.json;
+package studio.yukilem.json;
 
 import java.util.Arrays;
 import java.util.function.Function;

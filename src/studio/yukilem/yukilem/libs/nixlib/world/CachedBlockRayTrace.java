@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.world;
+package studio.yukilem.yukilem.libs.nixlib.world;
 
 import java.util.Map;
 import java.util.UUID;
@@ -12,7 +12,7 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.util.RayTraceResult;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
 
 public final class CachedBlockRayTrace {
    private static final long FRESH_NANOS = 300000000L;

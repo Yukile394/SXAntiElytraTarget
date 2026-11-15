@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.config.settings;
+package studio.yukilem.yukilem.config.settings;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.config.ConfigView;
 
 public record DatabaseSettings(@NotNull String type, @NotNull String sqliteFile, @NotNull String mysqlHost, int mysqlPort, @NotNull String mysqlDatabase, @NotNull String mysqlUsername, @NotNull String mysqlPassword) {
     @NotNull

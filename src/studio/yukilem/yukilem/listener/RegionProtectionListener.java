@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.listener;
+package studio.yukilem.yukilem.listener;
 
 import java.util.UUID;
 import lombok.Generated;
@@ -16,9 +16,9 @@ import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.platform.region.RegionProtectionPolicy;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.platform.region.RegionProtectionPolicy;
 
 public final class RegionProtectionListener implements Listener {
    private final PluginContext ctx;

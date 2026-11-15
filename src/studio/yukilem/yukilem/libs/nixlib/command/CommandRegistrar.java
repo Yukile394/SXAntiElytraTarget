@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.command;
+package studio.yukilem.yukilem.libs.nixlib.command;
 
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Field;
@@ -13,8 +13,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandSpec;
-import studio.glace.glantielytratarget.libs.nixlib.command.NixCommand;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandSpec;
+import studio.yukilem.yukilem.libs.nixlib.command.NixCommand;
 
 public final class CommandRegistrar {
     private CommandRegistrar() {

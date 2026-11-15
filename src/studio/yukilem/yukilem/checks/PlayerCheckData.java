@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks;
+package studio.yukilem.yukilem.checks;
 
 import java.util.Map;
 import java.util.UUID;
@@ -6,10 +6,10 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.packet.state.MovementUncertaintyState;
-import studio.glace.glantielytratarget.packet.state.PacketOrderState;
-import studio.glace.glantielytratarget.packet.state.RotationState;
-import studio.glace.glantielytratarget.packet.state.TickPacketState;
+import studio.yukilem.yukilem.packet.state.MovementUncertaintyState;
+import studio.yukilem.yukilem.packet.state.PacketOrderState;
+import studio.yukilem.yukilem.packet.state.RotationState;
+import studio.yukilem.yukilem.packet.state.TickPacketState;
 
 public final class PlayerCheckData {
     private static final Map<UUID, PlayerCheckData> DATA = new ConcurrentHashMap<UUID, PlayerCheckData>();

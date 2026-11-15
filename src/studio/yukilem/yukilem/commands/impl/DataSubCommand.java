@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.commands.impl;
+package studio.yukilem.yukilem.commands.impl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,15 +11,15 @@ import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.CommandMessages;
-import studio.glace.glantielytratarget.commands.CommandPlaceholders;
-import studio.glace.glantielytratarget.commands.SubCommand;
-import studio.glace.glantielytratarget.config.LanguageService;
-import studio.glace.glantielytratarget.config.settings.CommandSettings;
-import studio.glace.glantielytratarget.data.FlagRepository;
-import studio.glace.glantielytratarget.menu.ConfirmRequest;
-import studio.glace.glantielytratarget.menu.MenuManager;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.CommandMessages;
+import studio.yukilem.yukilem.commands.CommandPlaceholders;
+import studio.yukilem.yukilem.commands.SubCommand;
+import studio.yukilem.yukilem.config.LanguageService;
+import studio.yukilem.yukilem.config.settings.CommandSettings;
+import studio.yukilem.yukilem.data.FlagRepository;
+import studio.yukilem.yukilem.menu.ConfirmRequest;
+import studio.yukilem.yukilem.menu.MenuManager;
 
 public final class DataSubCommand
 implements SubCommand {

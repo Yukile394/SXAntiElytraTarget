@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.util.List;
 

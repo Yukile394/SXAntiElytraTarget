@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -11,10 +11,10 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.config.settings.MenuTimeSettings;
-import studio.glace.glantielytratarget.data.ViolationRecord;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.config.settings.MenuTimeSettings;
+import studio.yukilem.yukilem.data.ViolationRecord;
 
 final class MenuPlaceholders {
     private static final String EMPTY = "\u2014";

@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.packet.state;
+package studio.yukilem.yukilem.packet.state;
 
 import lombok.Generated;
-import studio.glace.glantielytratarget.util.LastInstance;
+import studio.yukilem.yukilem.util.LastInstance;
 
 public final class MovementUncertaintyState {
     private static final double BPS_ALPHA_RISE = 0.25;

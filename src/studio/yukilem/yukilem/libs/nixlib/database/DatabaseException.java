@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.database;
+package studio.yukilem.yukilem.libs.nixlib.database;
 
 public class DatabaseException
 extends RuntimeException {

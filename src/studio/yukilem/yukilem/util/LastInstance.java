@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util;
+package studio.yukilem.yukilem.util;
 
 public final class LastInstance {
     private int ticksAgo = 100;

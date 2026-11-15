@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.utils;
+package studio.yukilem.yukilem.libs.nixlib.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks;
+package studio.yukilem.yukilem.checks;
 
 import com.github.retrooper.packetevents.protocol.player.User;
 import java.util.ArrayList;
@@ -12,19 +12,19 @@ import java.util.concurrent.ConcurrentHashMap;
 import lombok.Generated;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.Check;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.checks.impl.CombatCheck;
-import studio.glace.glantielytratarget.checks.impl.ConsistencyCheck;
-import studio.glace.glantielytratarget.checks.impl.ElytraPatternCheck;
-import studio.glace.glantielytratarget.checks.impl.FWInputCheck;
-import studio.glace.glantielytratarget.checks.impl.HotbarOrderCheck;
-import studio.glace.glantielytratarget.checks.impl.PivotCheck;
-import studio.glace.glantielytratarget.checks.impl.SequenceCheck;
-import studio.glace.glantielytratarget.checks.impl.ShootCheck;
-import studio.glace.glantielytratarget.packet.PacketRouter;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.Check;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.checks.impl.CombatCheck;
+import studio.yukilem.yukilem.checks.impl.ConsistencyCheck;
+import studio.yukilem.yukilem.checks.impl.ElytraPatternCheck;
+import studio.yukilem.yukilem.checks.impl.FWInputCheck;
+import studio.yukilem.yukilem.checks.impl.HotbarOrderCheck;
+import studio.yukilem.yukilem.checks.impl.PivotCheck;
+import studio.yukilem.yukilem.checks.impl.SequenceCheck;
+import studio.yukilem.yukilem.checks.impl.ShootCheck;
+import studio.yukilem.yukilem.packet.PacketRouter;
 
 public final class CheckRegistry {
     private final List<Check> checks;

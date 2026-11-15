@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.data;
+package studio.yukilem.yukilem.data;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +9,11 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.data.ViolationRecord;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Cache;
-import studio.glace.glantielytratarget.libs.caffeine.cache.Caffeine;
-import studio.glace.glantielytratarget.libs.nixlib.database.Database;
-import studio.glace.glantielytratarget.libs.nixlib.database.RowMapper;
+import studio.yukilem.yukilem.data.ViolationRecord;
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
+import studio.yukilem.yukilem.libs.nixlib.database.Database;
+import studio.yukilem.yukilem.libs.nixlib.database.RowMapper;
 
 public final class ViolationRepository {
     private static final String CREATE_TABLE_SQLITE = "CREATE TABLE IF NOT EXISTS aet_violations (id INTEGER PRIMARY KEY AUTOINCREMENT, uuid VARCHAR(36) NOT NULL, name VARCHAR(16), check_name VARCHAR(64), seq INTEGER, created_at BIGINT, bps REAL, client_version VARCHAR(48), ping INTEGER, tps VARCHAR(8), world VARCHAR(64), x REAL, y REAL, z REAL, yaw REAL, pitch REAL, gamemode VARCHAR(16), gliding INTEGER, on_ground INTEGER, sprinting INTEGER)";

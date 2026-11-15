@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.commands.impl;
+package studio.yukilem.yukilem.commands.impl;
 
 import java.util.List;
 import java.util.Map;
@@ -8,12 +8,12 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.CommandMessages;
-import studio.glace.glantielytratarget.commands.SubCommand;
-import studio.glace.glantielytratarget.config.LanguageService;
-import studio.glace.glantielytratarget.data.FlagRepository;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.CommandMessages;
+import studio.yukilem.yukilem.commands.SubCommand;
+import studio.yukilem.yukilem.config.LanguageService;
+import studio.yukilem.yukilem.data.FlagRepository;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
 
 public final class ProfileSubCommand implements SubCommand {
    public ProfileSubCommand() {

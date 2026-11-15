@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.config;
+package studio.yukilem.yukilem.config;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -15,11 +15,11 @@ import java.util.function.Consumer;
 import java.util.logging.Logger;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.SyncOptions;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.SyncResult;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.TemplateSync;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.Nodes;
-import studio.glace.glantielytratarget.libs.nixlib.version.SemanticVersion;
+import studio.yukilem.yukilem.libs.nixlib.config.template.SyncOptions;
+import studio.yukilem.yukilem.libs.nixlib.config.template.SyncResult;
+import studio.yukilem.yukilem.libs.nixlib.config.template.TemplateSync;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.Nodes;
+import studio.yukilem.yukilem.libs.nixlib.version.SemanticVersion;
 
 public final class ChecksConfigurationService {
    private static final String BUNDLED_RESOURCE = "checks.yml";

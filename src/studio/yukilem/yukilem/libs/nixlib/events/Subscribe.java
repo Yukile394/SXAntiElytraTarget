@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.events;
+package studio.yukilem.yukilem.libs.nixlib.events;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

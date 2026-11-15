@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 final class ShootCheckLogic {
     static final long ARM_EXPIRY_NS = 1000000000L;

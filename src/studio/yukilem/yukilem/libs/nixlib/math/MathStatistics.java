@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.math;
+package studio.yukilem.yukilem.libs.nixlib.math;
 
 import java.util.Arrays;
 

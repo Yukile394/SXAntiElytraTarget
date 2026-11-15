@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicLong;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeIntegrityHost;
+import studio.yukilem.yukilem.platform.runtime.RuntimeIntegrityHost;
 
 final class RuntimeIntegrityWatchdog {
     private static final long PRIMARY_MS = 45000L;

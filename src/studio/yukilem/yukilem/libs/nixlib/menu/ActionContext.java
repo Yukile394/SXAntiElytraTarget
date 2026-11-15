@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
 import java.util.function.UnaryOperator;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.gui.ClickContext;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.ClickContext;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
 
 public final class ActionContext {
     private final Player player;

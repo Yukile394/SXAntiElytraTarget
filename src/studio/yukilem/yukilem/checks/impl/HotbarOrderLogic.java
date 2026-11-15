@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 import com.github.retrooper.packetevents.protocol.player.InteractionHand;
 import org.bukkit.Material;

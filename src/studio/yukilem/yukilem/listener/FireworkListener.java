@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.listener;
+package studio.yukilem.yukilem.listener;
 
 import lombok.Generated;
 import net.kyori.adventure.text.Component;
@@ -10,9 +10,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.platform.BypassPolicy;
-import studio.glace.glantielytratarget.platform.PlayerSessionCache;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.platform.BypassPolicy;
+import studio.yukilem.yukilem.platform.PlayerSessionCache;
 
 public final class FireworkListener
 implements Listener {

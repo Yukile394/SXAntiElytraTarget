@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.listener;
+package studio.yukilem.yukilem.listener;
 
 import com.destroystokyo.paper.event.player.PlayerElytraBoostEvent;
 import lombok.Generated;
@@ -11,19 +11,19 @@ import org.bukkit.event.entity.EntityToggleGlideEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.CheckRegistry;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.checks.impl.CombatCheck;
-import studio.glace.glantielytratarget.checks.impl.ElytraPatternCheck;
-import studio.glace.glantielytratarget.checks.impl.FWInputCheck;
-import studio.glace.glantielytratarget.checks.impl.HotbarOrderCheck;
-import studio.glace.glantielytratarget.checks.impl.SequenceCheck;
-import studio.glace.glantielytratarget.checks.impl.ShootCheck;
-import studio.glace.glantielytratarget.platform.BypassPolicy;
-import studio.glace.glantielytratarget.platform.PlayerSessionCache;
-import studio.glace.glantielytratarget.platform.ServerHealthMonitor;
-import studio.glace.glantielytratarget.util.combat.ElytraUseProbe;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.CheckRegistry;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.checks.impl.CombatCheck;
+import studio.yukilem.yukilem.checks.impl.ElytraPatternCheck;
+import studio.yukilem.yukilem.checks.impl.FWInputCheck;
+import studio.yukilem.yukilem.checks.impl.HotbarOrderCheck;
+import studio.yukilem.yukilem.checks.impl.SequenceCheck;
+import studio.yukilem.yukilem.checks.impl.ShootCheck;
+import studio.yukilem.yukilem.platform.BypassPolicy;
+import studio.yukilem.yukilem.platform.PlayerSessionCache;
+import studio.yukilem.yukilem.platform.ServerHealthMonitor;
+import studio.yukilem.yukilem.util.combat.ElytraUseProbe;
 
 public final class ElytraBoostListener
 implements Listener {

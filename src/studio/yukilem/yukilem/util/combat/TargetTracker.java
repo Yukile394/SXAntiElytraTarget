@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util.combat;
+package studio.yukilem.yukilem.util.combat;
 
 import java.lang.ref.WeakReference;
 import java.util.Map;

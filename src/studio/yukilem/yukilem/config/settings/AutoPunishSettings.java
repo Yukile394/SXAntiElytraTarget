@@ -1,9 +1,9 @@
-package studio.glace.glantielytratarget.config.settings;
+package studio.yukilem.yukilem.config.settings;
 
 import java.util.List;
 import java.util.Locale;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.config.ConfigView;
 
 public record AutoPunishSettings(boolean enabled, boolean ban, int violations, @NotNull String kickCommand, @NotNull String banCommand, boolean broadcastEnabled, @NotNull List<String> broadcastLines) {
     @NotNull

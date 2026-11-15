@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
@@ -15,19 +15,19 @@ import java.util.logging.Logger;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.Check;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.CheckMetadata;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.packet.PacketContext;
-import studio.glace.glantielytratarget.packet.PacketRouter;
-import studio.glace.glantielytratarget.packet.TickPacketUtil;
-import studio.glace.glantielytratarget.packet.TickReliability;
-import studio.glace.glantielytratarget.packet.handler.PacketHandler;
-import studio.glace.glantielytratarget.packet.state.MovementUncertaintyState;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.util.combat.ElytraUseProbe;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.Check;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckMetadata;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.packet.PacketContext;
+import studio.yukilem.yukilem.packet.PacketRouter;
+import studio.yukilem.yukilem.packet.TickPacketUtil;
+import studio.yukilem.yukilem.packet.TickReliability;
+import studio.yukilem.yukilem.packet.handler.PacketHandler;
+import studio.yukilem.yukilem.packet.state.MovementUncertaintyState;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.util.combat.ElytraUseProbe;
 
 @CheckMetadata(id = CheckId.SEQUENCE, configRoot = "checks.sequence-check")
 public final class SequenceCheck extends Check {

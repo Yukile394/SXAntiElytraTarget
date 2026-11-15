@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import org.jetbrains.annotations.NotNull;
 

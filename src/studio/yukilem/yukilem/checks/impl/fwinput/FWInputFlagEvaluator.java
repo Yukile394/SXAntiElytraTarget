@@ -1,13 +1,13 @@
-package studio.glace.glantielytratarget.checks.impl.fwinput;
+package studio.yukilem.yukilem.checks.impl.fwinput;
 
 import com.github.retrooper.packetevents.protocol.player.User;
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.checks.impl.LegitSwapLogic;
-import studio.glace.glantielytratarget.checks.impl.fwinput.FWInputSession;
-import studio.glace.glantielytratarget.checks.impl.fwinput.FWInputSessionLifecycle;
+import studio.yukilem.yukilem.checks.impl.LegitSwapLogic;
+import studio.yukilem.yukilem.checks.impl.fwinput.FWInputSession;
+import studio.yukilem.yukilem.checks.impl.fwinput.FWInputSessionLifecycle;
 
 public final class FWInputFlagEvaluator {
     private final BiPredicate<Player, User> tickReliable;

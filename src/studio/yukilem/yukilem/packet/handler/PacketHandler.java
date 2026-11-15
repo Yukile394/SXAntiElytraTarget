@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.packet.handler;
+package studio.yukilem.yukilem.packet.handler;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.packet.PacketContext;
+import studio.yukilem.yukilem.packet.PacketContext;
 
 @FunctionalInterface
 public interface PacketHandler {

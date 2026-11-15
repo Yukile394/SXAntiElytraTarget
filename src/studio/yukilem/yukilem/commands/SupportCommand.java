@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.commands;
+package studio.yukilem.yukilem.commands;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -15,8 +15,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
 
 public final class SupportCommand
 extends Command {

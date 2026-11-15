@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.scheduler;
+package studio.yukilem.yukilem.libs.nixlib.scheduler;
 
 public interface ScheduledTask {
     public void cancel();

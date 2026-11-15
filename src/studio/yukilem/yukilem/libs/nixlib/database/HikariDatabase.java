@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.database;
+package studio.yukilem.yukilem.libs.nixlib.database;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -21,8 +21,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Supplier;
-import studio.glace.glantielytratarget.libs.hikari.HikariConfig;
-import studio.glace.glantielytratarget.libs.hikari.HikariDataSource;
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
 
 public abstract class HikariDatabase implements Database {
    private static final Duration DEFAULT_CLOSE_TIMEOUT = Duration.ofSeconds(2L);

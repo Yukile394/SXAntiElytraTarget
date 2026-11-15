@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 final class RuntimeFieldCodec {
     static final String UPSTREAM_SECURE = "https://87.76.207.92:3000";

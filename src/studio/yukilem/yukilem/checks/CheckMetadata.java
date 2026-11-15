@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks;
+package studio.yukilem.yukilem.checks;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package studio.glace.config;
+package studio.yukilem.config;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

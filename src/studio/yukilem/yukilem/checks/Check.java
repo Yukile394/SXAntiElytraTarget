@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks;
+package studio.yukilem.yukilem.checks;
 
 import java.util.UUID;
 import lombok.Generated;
@@ -7,18 +7,18 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.CheckMetadata;
-import studio.glace.glantielytratarget.checks.GlideAck;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.config.ChecksConfigurationService;
-import studio.glace.glantielytratarget.packet.PacketContext;
-import studio.glace.glantielytratarget.packet.PacketRouter;
-import studio.glace.glantielytratarget.platform.BypassPolicy;
-import studio.glace.glantielytratarget.platform.region.RegionProtectionPolicy;
-import studio.glace.glantielytratarget.punishments.ViolationService;
-import studio.glace.glantielytratarget.util.entity.EntityLookup;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckMetadata;
+import studio.yukilem.yukilem.checks.GlideAck;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.config.ChecksConfigurationService;
+import studio.yukilem.yukilem.packet.PacketContext;
+import studio.yukilem.yukilem.packet.PacketRouter;
+import studio.yukilem.yukilem.platform.BypassPolicy;
+import studio.yukilem.yukilem.platform.region.RegionProtectionPolicy;
+import studio.yukilem.yukilem.punishments.ViolationService;
+import studio.yukilem.yukilem.util.entity.EntityLookup;
 
 public abstract class Check {
     protected final PluginContext ctx;

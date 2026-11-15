@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.text.SimpleDateFormat;
 import java.util.Iterator;
@@ -10,17 +10,17 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.data.ViolationRecord;
-import studio.glace.glantielytratarget.libs.nixlib.gui.ClickContext;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.libs.nixlib.gui.PagedGui;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.menu.MenuActionService;
-import studio.glace.glantielytratarget.menu.MenuAudio;
-import studio.glace.glantielytratarget.menu.MenuItemFactory;
-import studio.glace.glantielytratarget.menu.MenuPlaceholders;
-import studio.glace.glantielytratarget.menu.Menus;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.data.ViolationRecord;
+import studio.yukilem.yukilem.libs.nixlib.gui.ClickContext;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.PagedGui;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.menu.MenuActionService;
+import studio.yukilem.yukilem.menu.MenuAudio;
+import studio.yukilem.yukilem.menu.MenuItemFactory;
+import studio.yukilem.yukilem.menu.MenuPlaceholders;
+import studio.yukilem.yukilem.menu.Menus;
 
 final class ViolationsMenu {
     private static final int[] CONTENT_SLOTS = ViolationsMenu.buildContentSlots();

@@ -1,13 +1,13 @@
-package studio.glace.glantielytratarget.libs.nixlib;
+package studio.yukilem.yukilem.libs.nixlib;
 
 import java.util.logging.Logger;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.SchedulerProvider;
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerCapabilities;
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerType;
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerVersion;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.SchedulerProvider;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerCapabilities;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerType;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerVersion;
 
 public final class NixLib {
     private static volatile NixLib instance;

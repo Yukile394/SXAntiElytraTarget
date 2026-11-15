@@ -1,9 +1,9 @@
-package studio.glace.glantielytratarget;
+package studio.yukilem.yukilem;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.glAntiElytraTarget;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeGate;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.glAntiElytraTarget;
+import studio.yukilem.yukilem.platform.runtime.RuntimeGate;
 
 public final class LicenseBootstrap {
     private LicenseBootstrap() {

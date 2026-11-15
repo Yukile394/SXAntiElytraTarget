@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.libs.nixlib.scheduler;
+package studio.yukilem.yukilem.libs.nixlib.scheduler;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Optional;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerType;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerType;
 
 public final class SchedulerProvider {
     private SchedulerProvider() {
@@ -12,9 +12,9 @@ public final class SchedulerProvider {
 
     public static Scheduler create(Plugin plugin) {
         if (ServerType.detect().isMultithreaded()) {
-            return SchedulerProvider.tryInstantiate("studio.glace.glantielytratarget.libs.nixlib.scheduler.FoliaScheduler", plugin).orElseGet(() -> SchedulerProvider.instantiateOrThrow("studio.glace.glantielytratarget.libs.nixlib.scheduler.BukkitScheduler", plugin));
+            return SchedulerProvider.tryInstantiate("studio.yukilem.yukilem.libs.nixlib.scheduler.FoliaScheduler", plugin).orElseGet(() -> SchedulerProvider.instantiateOrThrow("studio.yukilem.yukilem.libs.nixlib.scheduler.BukkitScheduler", plugin));
         }
-        return SchedulerProvider.instantiateOrThrow("studio.glace.glantielytratarget.libs.nixlib.scheduler.BukkitScheduler", plugin);
+        return SchedulerProvider.instantiateOrThrow("studio.yukilem.yukilem.libs.nixlib.scheduler.BukkitScheduler", plugin);
     }
 
     private static Optional<Scheduler> tryInstantiate(String string, Plugin plugin) {

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.serializers;
+package studio.yukilem.yukilem.libs.nixlib.serializers;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

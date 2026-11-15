@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.version;
+package studio.yukilem.yukilem.libs.nixlib.version;
 
 public enum ServerType {
     BUKKIT,

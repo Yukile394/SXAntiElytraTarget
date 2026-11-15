@@ -1,8 +1,8 @@
-package studio.glace.charts;
+package studio.yukilem.charts;
 
 import java.util.concurrent.Callable;
-import studio.glace.charts.CustomChart;
-import studio.glace.json.JsonObjectBuilder;
+import studio.yukilem.charts.CustomChart;
+import studio.yukilem.json.JsonObjectBuilder;
 
 public class SimplePie
 extends CustomChart {

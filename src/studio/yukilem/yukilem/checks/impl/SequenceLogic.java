@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 final class SequenceLogic {
     static final long USE_SWAP_PAIR_MAX_NS = 25000000L;

@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.util.combat;
+package studio.yukilem.yukilem.util.combat;
 
 import java.util.UUID;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
-import studio.glace.glantielytratarget.libs.nixlib.world.CachedBlockRayTrace;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.world.CachedBlockRayTrace;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
 
 public final class ElytraUseProbe {
     public static final double BLOCK_TARGET_REACH = 5.0;

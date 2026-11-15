@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.menu;
+package studio.yukilem.yukilem.menu;
 
 import java.util.List;
 import java.util.Locale;
@@ -9,10 +9,10 @@ import java.util.function.Function;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.data.ViolationRecord;
-import studio.glace.glantielytratarget.libs.nixlib.gui.GuiManager;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.data.ViolationRecord;
+import studio.yukilem.yukilem.libs.nixlib.gui.GuiManager;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
 
 public final class MenuManager {
    private final PluginContext ctx;

@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.packet;
+package studio.yukilem.yukilem.packet;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.wrapper.play.client.WrapperPlayClientPlayerFlying;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.packet.state.RotationState;
-import studio.glace.glantielytratarget.packet.state.TickPacketState;
+import studio.yukilem.yukilem.packet.state.RotationState;
+import studio.yukilem.yukilem.packet.state.TickPacketState;
 
 public final class RotationTracker {
     private RotationTracker() {

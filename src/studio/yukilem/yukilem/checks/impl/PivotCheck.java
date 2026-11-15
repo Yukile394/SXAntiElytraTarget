@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.protocol.packettype.PacketTypeCommon;
@@ -12,18 +12,18 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.Check;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.CheckMetadata;
-import studio.glace.glantielytratarget.checks.PlayerCheckData;
-import studio.glace.glantielytratarget.checks.impl.pivot.PivotSettleCoordinator;
-import studio.glace.glantielytratarget.checks.impl.pivot.PivotSettleSession;
-import studio.glace.glantielytratarget.config.ChecksConfigurationService;
-import studio.glace.glantielytratarget.packet.PacketContext;
-import studio.glace.glantielytratarget.packet.PacketRouter;
-import studio.glace.glantielytratarget.packet.handler.PacketHandler;
-import studio.glace.glantielytratarget.packet.state.TickPacketState;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.Check;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckMetadata;
+import studio.yukilem.yukilem.checks.PlayerCheckData;
+import studio.yukilem.yukilem.checks.impl.pivot.PivotSettleCoordinator;
+import studio.yukilem.yukilem.checks.impl.pivot.PivotSettleSession;
+import studio.yukilem.yukilem.config.ChecksConfigurationService;
+import studio.yukilem.yukilem.packet.PacketContext;
+import studio.yukilem.yukilem.packet.PacketRouter;
+import studio.yukilem.yukilem.packet.handler.PacketHandler;
+import studio.yukilem.yukilem.packet.state.TickPacketState;
 
 @CheckMetadata(id = CheckId.PIVOT, configRoot = "checks.pivot-check")
 public final class PivotCheck extends Check {

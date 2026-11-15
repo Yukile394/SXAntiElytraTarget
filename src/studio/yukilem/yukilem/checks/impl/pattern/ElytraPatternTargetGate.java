@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl.pattern;
+package studio.yukilem.yukilem.checks.impl.pattern;
 
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -6,9 +6,9 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternSession;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternThresholds;
-import studio.glace.glantielytratarget.util.math.RotationMath;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternSession;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternThresholds;
+import studio.yukilem.yukilem.util.math.RotationMath;
 
 public final class ElytraPatternTargetGate {
     private ElytraPatternTargetGate() {

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util.combat;
+package studio.yukilem.yukilem.util.combat;
 
 import org.bukkit.Material;
 import org.bukkit.World;

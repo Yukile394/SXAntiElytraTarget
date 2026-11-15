@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.packet;
+package studio.yukilem.yukilem.packet;
 
 import com.github.retrooper.packetevents.protocol.packettype.PacketTypeCommon;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 import java.util.function.Function;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.packet.handler.PacketHandler;
+import studio.yukilem.yukilem.packet.handler.PacketHandler;
 
 public final class PacketRouter {
    private static final PacketHandler[] EMPTY = new PacketHandler[0];

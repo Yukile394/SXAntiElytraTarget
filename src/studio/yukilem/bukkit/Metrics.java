@@ -1,4 +1,4 @@
-package studio.glace.bukkit;
+package studio.yukilem.bukkit;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,9 +18,9 @@ import org.bukkit.configuration.file.YamlConfigurationOptions;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitTask;
-import studio.glace.MetricsBase;
-import studio.glace.charts.CustomChart;
-import studio.glace.json.JsonObjectBuilder;
+import studio.yukilem.MetricsBase;
+import studio.yukilem.charts.CustomChart;
+import studio.yukilem.json.JsonObjectBuilder;
 
 public class Metrics {
     private final Plugin plugin;

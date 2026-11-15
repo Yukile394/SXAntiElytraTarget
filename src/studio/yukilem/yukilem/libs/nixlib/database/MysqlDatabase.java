@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.libs.nixlib.database;
+package studio.yukilem.yukilem.libs.nixlib.database;
 
-import studio.glace.glantielytratarget.libs.hikari.HikariConfig;
-import studio.glace.glantielytratarget.libs.nixlib.database.HikariDatabase;
+import com.zaxxer.hikari.HikariConfig;
+import studio.yukilem.yukilem.libs.nixlib.database.HikariDatabase;
 
 public final class MysqlDatabase
 extends HikariDatabase {

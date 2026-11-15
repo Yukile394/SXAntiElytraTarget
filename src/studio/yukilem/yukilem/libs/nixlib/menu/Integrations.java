@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.menu;
+package studio.yukilem.yukilem.libs.nixlib.menu;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.messaging.Messenger;
-import studio.glace.glantielytratarget.libs.nixlib.menu.Warnings;
+import studio.yukilem.yukilem.libs.nixlib.menu.Warnings;
 
 final class Integrations {
     private static final String BUNGEE_CHANNEL = "BungeeCord";

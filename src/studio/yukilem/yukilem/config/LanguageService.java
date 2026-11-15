@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.config;
+package studio.yukilem.yukilem.config;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -25,13 +25,13 @@ import lombok.Generated;
 import net.kyori.adventure.text.Component;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.ConfigurationService;
-import studio.glace.glantielytratarget.config.LanguageYamlMigration;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.SyncOptions;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.SyncResult;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.TemplateSync;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.Nodes;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.config.ConfigurationService;
+import studio.yukilem.yukilem.config.LanguageYamlMigration;
+import studio.yukilem.yukilem.libs.nixlib.config.template.SyncOptions;
+import studio.yukilem.yukilem.libs.nixlib.config.template.SyncResult;
+import studio.yukilem.yukilem.libs.nixlib.config.template.TemplateSync;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.Nodes;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
 
 public final class LanguageService {
     private static final String[] AVAILABLE_LANGS;

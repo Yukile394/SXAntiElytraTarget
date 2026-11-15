@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.gui;
+package studio.yukilem.yukilem.libs.nixlib.gui;
 
 import java.util.UUID;
 import java.util.function.Consumer;
@@ -16,10 +16,10 @@ import org.bukkit.event.inventory.PrepareAnvilEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.NixLib;
-import studio.glace.glantielytratarget.libs.nixlib.gui.AnvilGui;
-import studio.glace.glantielytratarget.libs.nixlib.gui.Gui;
-import studio.glace.glantielytratarget.libs.nixlib.gui.GuiNavigation;
+import studio.yukilem.yukilem.libs.nixlib.NixLib;
+import studio.yukilem.yukilem.libs.nixlib.gui.AnvilGui;
+import studio.yukilem.yukilem.libs.nixlib.gui.Gui;
+import studio.yukilem.yukilem.libs.nixlib.gui.GuiNavigation;
 
 public final class GuiManager
 implements Listener {

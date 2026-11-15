@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -13,22 +13,22 @@ import java.util.logging.Logger;
 import java.util.stream.Stream;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.json.JSONObject;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeFieldCodec;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeGraceState;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeIntegrityFacet;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeIntegrityWatchdog;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeJarDigest;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeLazyRevive;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeLicenseErrors;
-import studio.glace.glantielytratarget.platform.runtime.RuntimePayloadCrypto;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeVerifyHttp;
+import org.json.JSONObject;
+import studio.yukilem.yukilem.platform.runtime.RuntimeFieldCodec;
+import studio.yukilem.yukilem.platform.runtime.RuntimeGraceState;
+import studio.yukilem.yukilem.platform.runtime.RuntimeIntegrityFacet;
+import studio.yukilem.yukilem.platform.runtime.RuntimeIntegrityWatchdog;
+import studio.yukilem.yukilem.platform.runtime.RuntimeJarDigest;
+import studio.yukilem.yukilem.platform.runtime.RuntimeLazyRevive;
+import studio.yukilem.yukilem.platform.runtime.RuntimeLicenseErrors;
+import studio.yukilem.yukilem.platform.runtime.RuntimePayloadCrypto;
+import studio.yukilem.yukilem.platform.runtime.RuntimeVerifyHttp;
 
 public final class RuntimeAuthority {
     private static final long _SEAL_MAGIC = 3237998146L;
     private static final long _SELF_CHECK_PERIOD_NS = 30000000000L;
     private static final long _GRACE_WINDOW_NS = 60000000000L;
-    private static final String _PROFILE_CALLER = "studio.glace.glantielytratarget.platform.runtime.RuntimeProfile";
+    private static final String _PROFILE_CALLER = "studio.yukilem.yukilem.platform.runtime.RuntimeProfile";
     private static final StackWalker _CALLER_WALKER = StackWalker.getInstance();
     private final String _key;
     private final Logger _log;
@@ -330,7 +330,7 @@ public final class RuntimeAuthority {
             Iterator iterator2 = vector2.iterator();
             while ((iterator = iterator2).hasNext()) {
                 Iterator iterator3 = iterator2;
-                if (!((Class)iterator3.next()).getName().startsWith("studio.glace.glantielytratarget")) continue;
+                if (!((Class)iterator3.next()).getName().startsWith("studio.yukilem.yukilem")) continue;
                 ++n;
             }
             int n2 = n;

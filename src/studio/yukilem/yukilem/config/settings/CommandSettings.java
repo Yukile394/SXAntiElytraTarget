@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.config.settings;
+package studio.yukilem.yukilem.config.settings;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.config.ConfigView;
+import studio.yukilem.yukilem.config.ConfigView;
 
 public record CommandSettings(@NotNull String name, @NotNull List<String> aliases, @NotNull String alerts, @NotNull String reload, @NotNull String help, @NotNull String profile, @NotNull String data, @NotNull DataSub dataSub) {
     public static final String DATA_TYPE_VIOLATIONS = "violations";

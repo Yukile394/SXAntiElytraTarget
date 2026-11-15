@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.checks.impl.pattern;
+package studio.yukilem.yukilem.checks.impl.pattern;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.config.ChecksConfigurationService;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeAuthority;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeProfile;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.config.ChecksConfigurationService;
+import studio.yukilem.yukilem.platform.runtime.RuntimeAuthority;
+import studio.yukilem.yukilem.platform.runtime.RuntimeProfile;
 
 public final class ElytraPatternThresholds {
     public static final int MAX_SAMPLE_CAPACITY = 64;

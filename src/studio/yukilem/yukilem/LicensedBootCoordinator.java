@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget;
+package studio.yukilem.yukilem;
 
 import java.io.File;
 import java.util.Objects;
@@ -9,15 +9,15 @@ import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.scheduler.BukkitTask;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.bootstrap.GraceConsoleBanner;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.bootstrap.ServiceRegistry;
-import studio.glace.glantielytratarget.config.ConfigurationService;
-import studio.glace.glantielytratarget.config.LanguageService;
-import studio.glace.glantielytratarget.platform.BedrockPlatformProbe;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeAuthority;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeGate;
+import studio.yukilem.yukilem.bootstrap.GraceConsoleBanner;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.bootstrap.ServiceRegistry;
+import studio.yukilem.yukilem.config.ConfigurationService;
+import studio.yukilem.yukilem.config.LanguageService;
+import studio.yukilem.yukilem.platform.BedrockPlatformProbe;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.platform.runtime.RuntimeAuthority;
+import studio.yukilem.yukilem.platform.runtime.RuntimeGate;
 
 final class LicensedBootCoordinator {
    private static final long INIT_SEAL = 3237998146L;

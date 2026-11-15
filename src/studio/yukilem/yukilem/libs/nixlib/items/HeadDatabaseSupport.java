@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.items;
+package studio.yukilem.yukilem.libs.nixlib.items;
 
 import org.bukkit.Bukkit;
 import org.bukkit.inventory.ItemStack;

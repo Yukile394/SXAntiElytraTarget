@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.migration;
+package studio.yukilem.yukilem.libs.nixlib.config.migration;
 
 import java.util.Map;
-import studio.glace.glantielytratarget.libs.nixlib.config.yaml.Nodes;
+import studio.yukilem.yukilem.libs.nixlib.config.yaml.Nodes;
 
 public final class MigrationContext {
     private final Map<String, Object> root;

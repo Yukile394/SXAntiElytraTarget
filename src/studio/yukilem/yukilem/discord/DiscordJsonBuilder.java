@@ -1,6 +1,6 @@
-package studio.glace.glantielytratarget.discord;
+package studio.yukilem.yukilem.discord;
 
-import studio.glace.glantielytratarget.discord.DiscordWebhookPayload;
+import studio.yukilem.yukilem.discord.DiscordWebhookPayload;
 
 final class DiscordJsonBuilder {
     private final StringBuilder sb;

@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.libs.nixlib.placeholders;
+package studio.yukilem.yukilem.libs.nixlib.placeholders;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.bukkit.OfflinePlayer;
-import studio.glace.glantielytratarget.libs.nixlib.placeholders.Placeholder;
+import studio.yukilem.yukilem.libs.nixlib.placeholders.Placeholder;
 
 public final class PlaceholderRegistry {
     private static final Pattern TOKEN = Pattern.compile("%([a-zA-Z0-9_\\-]+)(?::([^%]+))?%");

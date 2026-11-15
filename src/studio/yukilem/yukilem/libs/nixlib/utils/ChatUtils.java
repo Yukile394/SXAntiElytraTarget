@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.utils;
+package studio.yukilem.yukilem.libs.nixlib.utils;
 
 import java.time.Duration;
 import java.util.List;
@@ -7,8 +7,8 @@ import net.kyori.adventure.title.Title;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.libs.nixlib.utils.StringUtils;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.libs.nixlib.utils.StringUtils;
 
 public final class ChatUtils {
     private ChatUtils() {

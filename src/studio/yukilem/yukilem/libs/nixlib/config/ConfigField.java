@@ -1,14 +1,14 @@
-package studio.glace.glantielytratarget.libs.nixlib.config;
+package studio.yukilem.yukilem.libs.nixlib.config;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import studio.glace.glantielytratarget.libs.nixlib.config.Config;
-import studio.glace.glantielytratarget.libs.nixlib.config.ConfigException;
-import studio.glace.glantielytratarget.libs.nixlib.config.annotations.Comment;
-import studio.glace.glantielytratarget.libs.nixlib.config.annotations.Path;
+import studio.yukilem.yukilem.libs.nixlib.config.Config;
+import studio.yukilem.yukilem.libs.nixlib.config.ConfigException;
+import studio.yukilem.yukilem.libs.nixlib.config.annotations.Comment;
+import studio.yukilem.yukilem.libs.nixlib.config.annotations.Path;
 
 final class ConfigField {
     final Field field;

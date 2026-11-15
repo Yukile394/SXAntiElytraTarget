@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.command;
+package studio.yukilem.yukilem.libs.nixlib.command;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;

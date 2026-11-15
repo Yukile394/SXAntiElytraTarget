@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.libs.nixlib.version;
+package studio.yukilem.yukilem.libs.nixlib.version;
 
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerType;
-import studio.glace.glantielytratarget.libs.nixlib.version.ServerVersion;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerType;
+import studio.yukilem.yukilem.libs.nixlib.version.ServerVersion;
 
 public final class ServerCapabilities {
     private final ServerType type;

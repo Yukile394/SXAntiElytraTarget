@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform;
+package studio.yukilem.yukilem.platform;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.protocol.player.User;
@@ -9,7 +9,7 @@ import java.util.function.Function;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.platform.BedrockPlatformProbe;
+import studio.yukilem.yukilem.platform.BedrockPlatformProbe;
 
 public final class PlayerSessionCache {
     private static final long PERMISSION_REFRESH_NANOS = 5000000000L;

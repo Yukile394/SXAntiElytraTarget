@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util.math;
+package studio.yukilem.yukilem.util.math;
 
 import org.bukkit.Location;
 import org.bukkit.World;

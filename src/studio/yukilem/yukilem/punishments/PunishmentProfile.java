@@ -1,11 +1,11 @@
-package studio.glace.glantielytratarget.punishments;
+package studio.yukilem.yukilem.punishments;
 
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.punishments.CheckMatcher;
-import studio.glace.glantielytratarget.punishments.PunishmentCommand;
+import studio.yukilem.yukilem.punishments.CheckMatcher;
+import studio.yukilem.yukilem.punishments.PunishmentCommand;
 
 public final class PunishmentProfile {
     private final String name;

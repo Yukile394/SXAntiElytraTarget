@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.collection;
+package studio.yukilem.yukilem.libs.nixlib.collection;
 
 public final class LongSampleQueue {
     private final long[] buffer;

@@ -1,13 +1,13 @@
-package studio.glace.glantielytratarget.platform;
+package studio.yukilem.yukilem.platform;
 
 import java.util.logging.Logger;
 import org.bukkit.entity.Entity;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.ScheduledTask;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.SchedulerProvider;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.ScheduledTask;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.SchedulerProvider;
 
 public final class PlatformScheduler {
     private final JavaPlugin plugin;

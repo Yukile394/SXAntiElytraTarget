@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.migration;
+package studio.yukilem.yukilem.libs.nixlib.config.migration;
 
 import java.util.HashMap;
 import java.util.Map;
-import studio.glace.glantielytratarget.libs.nixlib.config.ConfigException;
-import studio.glace.glantielytratarget.libs.nixlib.config.migration.MigrationContext;
-import studio.glace.glantielytratarget.libs.nixlib.config.migration.MigrationStep;
+import studio.yukilem.yukilem.libs.nixlib.config.ConfigException;
+import studio.yukilem.yukilem.libs.nixlib.config.migration.MigrationContext;
+import studio.yukilem.yukilem.libs.nixlib.config.migration.MigrationStep;
 
 public final class MigrationRegistry {
     private final Map<Integer, Entry> steps = new HashMap<Integer, Entry>();

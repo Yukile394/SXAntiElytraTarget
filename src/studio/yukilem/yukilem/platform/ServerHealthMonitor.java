@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform;
+package studio.yukilem.yukilem.platform;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -7,8 +7,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.ConfigurationService;
-import studio.glace.glantielytratarget.config.settings.LagProtectionSettings;
+import studio.yukilem.yukilem.config.ConfigurationService;
+import studio.yukilem.yukilem.config.settings.LagProtectionSettings;
 
 public final class ServerHealthMonitor {
     private static final long TPS_CACHE_DURATION_MS = 1000L;

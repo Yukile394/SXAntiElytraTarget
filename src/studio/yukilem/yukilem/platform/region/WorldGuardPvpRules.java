@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.region;
+package studio.yukilem.yukilem.platform.region;
 
 import org.jetbrains.annotations.Nullable;
 

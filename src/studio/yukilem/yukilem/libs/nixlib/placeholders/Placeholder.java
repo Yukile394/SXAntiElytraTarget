@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.placeholders;
+package studio.yukilem.yukilem.libs.nixlib.placeholders;
 
 import org.bukkit.OfflinePlayer;
 

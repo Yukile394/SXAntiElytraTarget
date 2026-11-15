@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.config;
+package studio.yukilem.yukilem.config;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -16,18 +16,18 @@ import java.util.logging.Logger;
 import lombok.Generated;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.config.settings.AlertSettings;
-import studio.glace.glantielytratarget.config.settings.AutoPunishSettings;
-import studio.glace.glantielytratarget.config.settings.DamageReductionSettings;
-import studio.glace.glantielytratarget.config.settings.DatabaseSettings;
-import studio.glace.glantielytratarget.config.settings.LagProtectionSettings;
-import studio.glace.glantielytratarget.config.settings.MenuTimeSettings;
-import studio.glace.glantielytratarget.config.settings.OffhandSettings;
-import studio.glace.glantielytratarget.config.settings.UpdateCheckerSettings;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.SyncOptions;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.SyncResult;
-import studio.glace.glantielytratarget.libs.nixlib.config.template.TemplateSync;
-import studio.glace.glantielytratarget.libs.nixlib.version.SemanticVersion;
+import studio.yukilem.yukilem.config.settings.AlertSettings;
+import studio.yukilem.yukilem.config.settings.AutoPunishSettings;
+import studio.yukilem.yukilem.config.settings.DamageReductionSettings;
+import studio.yukilem.yukilem.config.settings.DatabaseSettings;
+import studio.yukilem.yukilem.config.settings.LagProtectionSettings;
+import studio.yukilem.yukilem.config.settings.MenuTimeSettings;
+import studio.yukilem.yukilem.config.settings.OffhandSettings;
+import studio.yukilem.yukilem.config.settings.UpdateCheckerSettings;
+import studio.yukilem.yukilem.libs.nixlib.config.template.SyncOptions;
+import studio.yukilem.yukilem.libs.nixlib.config.template.SyncResult;
+import studio.yukilem.yukilem.libs.nixlib.config.template.TemplateSync;
+import studio.yukilem.yukilem.libs.nixlib.version.SemanticVersion;
 
 public final class ConfigurationService {
    private static final String BUNDLED_RESOURCE = "config.yml";

@@ -1,23 +1,23 @@
-package studio.glace.glantielytratarget.commands;
+package studio.yukilem.yukilem.commands;
 
 import java.util.ArrayList;
 import java.util.List;
 import net.kyori.adventure.text.Component;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.commands.SubCommand;
-import studio.glace.glantielytratarget.commands.impl.AlertSubCommand;
-import studio.glace.glantielytratarget.commands.impl.DataSubCommand;
-import studio.glace.glantielytratarget.commands.impl.HelpSubCommand;
-import studio.glace.glantielytratarget.commands.impl.ProfileSubCommand;
-import studio.glace.glantielytratarget.commands.impl.ReloadSubCommand;
-import studio.glace.glantielytratarget.config.settings.CommandSettings;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandAction;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandContext;
-import studio.glace.glantielytratarget.libs.nixlib.command.CommandSpec;
-import studio.glace.glantielytratarget.libs.nixlib.command.SuggestionProvider;
-import studio.glace.glantielytratarget.platform.runtime.RuntimeGate;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.commands.SubCommand;
+import studio.yukilem.yukilem.commands.impl.AlertSubCommand;
+import studio.yukilem.yukilem.commands.impl.DataSubCommand;
+import studio.yukilem.yukilem.commands.impl.HelpSubCommand;
+import studio.yukilem.yukilem.commands.impl.ProfileSubCommand;
+import studio.yukilem.yukilem.commands.impl.ReloadSubCommand;
+import studio.yukilem.yukilem.config.settings.CommandSettings;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandAction;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandContext;
+import studio.yukilem.yukilem.libs.nixlib.command.CommandSpec;
+import studio.yukilem.yukilem.libs.nixlib.command.SuggestionProvider;
+import studio.yukilem.yukilem.platform.runtime.RuntimeGate;
 
 public final class PluginCommandRouter {
     private final PluginContext ctx;

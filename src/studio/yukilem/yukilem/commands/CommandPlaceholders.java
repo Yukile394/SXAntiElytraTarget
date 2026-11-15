@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.commands;
+package studio.yukilem.yukilem.commands;
 
 import java.util.HashMap;
 import java.util.Map;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.config.settings.CommandSettings;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.config.settings.CommandSettings;
 
 public final class CommandPlaceholders {
     private CommandPlaceholders() {

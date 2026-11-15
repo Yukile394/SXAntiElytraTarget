@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.scheduler;
+package studio.yukilem.yukilem.libs.nixlib.scheduler;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -9,8 +9,8 @@ import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitTask;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.ScheduledTask;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.ScheduledTask;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
 
 public final class BukkitScheduler
 implements Scheduler {

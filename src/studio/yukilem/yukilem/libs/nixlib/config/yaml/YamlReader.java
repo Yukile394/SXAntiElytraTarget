@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.yaml;
+package studio.yukilem.yukilem.libs.nixlib.config.yaml;
 
 import java.io.Reader;
 import java.io.StringReader;
@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import studio.glace.glantielytratarget.libs.snakeyaml.LoaderOptions;
-import studio.glace.glantielytratarget.libs.snakeyaml.Yaml;
-import studio.glace.glantielytratarget.libs.snakeyaml.constructor.SafeConstructor;
-import studio.glace.glantielytratarget.libs.snakeyaml.nodes.MappingNode;
-import studio.glace.glantielytratarget.libs.snakeyaml.nodes.Node;
-import studio.glace.glantielytratarget.libs.snakeyaml.nodes.NodeTuple;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.constructor.SafeConstructor;
+import org.yaml.snakeyaml.nodes.MappingNode;
+import org.yaml.snakeyaml.nodes.Node;
+import org.yaml.snakeyaml.nodes.NodeTuple;
 
 public final class YamlReader {
     private YamlReader() {

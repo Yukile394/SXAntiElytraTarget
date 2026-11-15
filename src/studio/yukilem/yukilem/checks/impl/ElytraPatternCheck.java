@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.checks.impl;
+package studio.yukilem.yukilem.checks.impl;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.protocol.packettype.PacketType;
@@ -12,20 +12,20 @@ import java.util.function.Function;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.Check;
-import studio.glace.glantielytratarget.checks.CheckId;
-import studio.glace.glantielytratarget.checks.CheckMetadata;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternEvaluator;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternSession;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternTargetGate;
-import studio.glace.glantielytratarget.checks.impl.pattern.ElytraPatternThresholds;
-import studio.glace.glantielytratarget.libs.nixlib.collection.LongSampleQueue;
-import studio.glace.glantielytratarget.packet.PacketContext;
-import studio.glace.glantielytratarget.packet.PacketRouter;
-import studio.glace.glantielytratarget.packet.handler.PacketHandler;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.util.combat.TargetTracker;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.Check;
+import studio.yukilem.yukilem.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckMetadata;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternEvaluator;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternSession;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternTargetGate;
+import studio.yukilem.yukilem.checks.impl.pattern.ElytraPatternThresholds;
+import studio.yukilem.yukilem.libs.nixlib.collection.LongSampleQueue;
+import studio.yukilem.yukilem.packet.PacketContext;
+import studio.yukilem.yukilem.packet.PacketRouter;
+import studio.yukilem.yukilem.packet.handler.PacketHandler;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.util.combat.TargetTracker;
 
 @CheckMetadata(id=CheckId.ELYTRA_PATTERN, configRoot="heuristic-checks.elytra-pattern-check", heuristic=true)
 public final class ElytraPatternCheck

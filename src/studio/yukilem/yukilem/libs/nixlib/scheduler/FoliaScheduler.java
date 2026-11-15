@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.scheduler;
+package studio.yukilem.yukilem.libs.nixlib.scheduler;
 
 import io.papermc.paper.threadedregions.scheduler.AsyncScheduler;
 import io.papermc.paper.threadedregions.scheduler.EntityScheduler;
@@ -13,8 +13,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.ScheduledTask;
-import studio.glace.glantielytratarget.libs.nixlib.scheduler.Scheduler;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.ScheduledTask;
+import studio.yukilem.yukilem.libs.nixlib.scheduler.Scheduler;
 
 public final class FoliaScheduler
 implements Scheduler {

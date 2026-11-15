@@ -1,16 +1,16 @@
-package studio.glace.glantielytratarget.punishments;
+package studio.yukilem.yukilem.punishments;
 
 import java.util.UUID;
 import java.util.logging.Logger;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.punishments.ConsoleCommandDeduplicator;
-import studio.glace.glantielytratarget.punishments.PlaceholderContext;
-import studio.glace.glantielytratarget.punishments.PunishmentCommand;
-import studio.glace.glantielytratarget.punishments.ViolationAlertDispatcher;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.punishments.ConsoleCommandDeduplicator;
+import studio.yukilem.yukilem.punishments.PlaceholderContext;
+import studio.yukilem.yukilem.punishments.PunishmentCommand;
+import studio.yukilem.yukilem.punishments.ViolationAlertDispatcher;
 
 final class ViolationCommandSink {
     private final PluginContext ctx;
@@ -86,7 +86,7 @@ final class ViolationCommandSink {
     }
 
     private void broadcastRemoval(@NotNull PlaceholderContext placeholderContext) {
-        studio.glace.glantielytratarget.config.settings.AutoPunishSettings settings = this.ctx.config().getAutoPunish();
+        studio.yukilem.yukilem.config.settings.AutoPunishSettings settings = this.ctx.config().getAutoPunish();
         if (!settings.broadcastEnabled()) {
             return;
         }

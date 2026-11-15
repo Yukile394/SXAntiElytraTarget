@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.platform.runtime;
+package studio.yukilem.yukilem.platform.runtime;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -15,7 +15,7 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import studio.glace.glantielytratarget.libs.json.JSONObject;
+import org.json.JSONObject;
 
 final class RuntimePayloadCrypto {
    private static final long FNV_OFFSET = -3750763034362895579L;

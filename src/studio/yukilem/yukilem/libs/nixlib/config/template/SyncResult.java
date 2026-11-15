@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.template;
+package studio.yukilem.yukilem.libs.nixlib.config.template;
 
 import java.util.Map;
-import studio.glace.glantielytratarget.libs.nixlib.version.SemanticVersion;
+import studio.yukilem.yukilem.libs.nixlib.version.SemanticVersion;
 
 public final class SyncResult {
     private final String mergedYaml;

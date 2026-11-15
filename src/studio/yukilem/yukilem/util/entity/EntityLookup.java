@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.util.entity;
+package studio.yukilem.yukilem.util.entity;
 
 import java.util.Iterator;
 import org.bukkit.Location;

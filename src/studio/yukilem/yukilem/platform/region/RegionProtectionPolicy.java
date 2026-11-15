@@ -1,10 +1,10 @@
-package studio.glace.glantielytratarget.platform.region;
+package studio.yukilem.yukilem.platform.region;
 
 import java.util.UUID;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.checks.CheckId;
+import studio.yukilem.yukilem.checks.CheckId;
 
 public interface RegionProtectionPolicy {
     public boolean active();

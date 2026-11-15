@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.listener;
+package studio.yukilem.yukilem.listener;
 
 import java.util.Iterator;
 import java.util.UUID;
@@ -11,21 +11,21 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
-import studio.glace.glantielytratarget.alerts.AlertService;
-import studio.glace.glantielytratarget.bootstrap.PluginContext;
-import studio.glace.glantielytratarget.checks.CheckRegistry;
-import studio.glace.glantielytratarget.config.settings.UpdateCheckerSettings;
-import studio.glace.glantielytratarget.data.FlagRepository;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
-import studio.glace.glantielytratarget.menu.MenuManager;
-import studio.glace.glantielytratarget.platform.PlatformScheduler;
-import studio.glace.glantielytratarget.platform.PlayerSessionCache;
-import studio.glace.glantielytratarget.platform.ServerHealthMonitor;
-import studio.glace.glantielytratarget.platform.region.RegionProtectionPolicy;
-import studio.glace.glantielytratarget.punishments.ViolationService;
-import studio.glace.glantielytratarget.update.UpdateChecker;
-import studio.glace.glantielytratarget.util.combat.ElytraUseProbe;
-import studio.glace.glantielytratarget.util.combat.TargetTracker;
+import studio.yukilem.yukilem.alerts.AlertService;
+import studio.yukilem.yukilem.bootstrap.PluginContext;
+import studio.yukilem.yukilem.checks.CheckRegistry;
+import studio.yukilem.yukilem.config.settings.UpdateCheckerSettings;
+import studio.yukilem.yukilem.data.FlagRepository;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.menu.MenuManager;
+import studio.yukilem.yukilem.platform.PlatformScheduler;
+import studio.yukilem.yukilem.platform.PlayerSessionCache;
+import studio.yukilem.yukilem.platform.ServerHealthMonitor;
+import studio.yukilem.yukilem.platform.region.RegionProtectionPolicy;
+import studio.yukilem.yukilem.punishments.ViolationService;
+import studio.yukilem.yukilem.update.UpdateChecker;
+import studio.yukilem.yukilem.util.combat.ElytraUseProbe;
+import studio.yukilem.yukilem.util.combat.TargetTracker;
 
 public final class PlayerLifecycleListener
 implements Listener {

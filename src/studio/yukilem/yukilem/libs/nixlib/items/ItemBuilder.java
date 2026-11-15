@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.libs.nixlib.items;
+package studio.yukilem.yukilem.libs.nixlib.items;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,9 +19,9 @@ import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.Plugin;
-import studio.glace.glantielytratarget.libs.nixlib.items.ItemMetaReflect;
-import studio.glace.glantielytratarget.libs.nixlib.items.ItemStackComponents;
-import studio.glace.glantielytratarget.libs.nixlib.utils.ColorUtils;
+import studio.yukilem.yukilem.libs.nixlib.items.ItemMetaReflect;
+import studio.yukilem.yukilem.libs.nixlib.items.ItemStackComponents;
+import studio.yukilem.yukilem.libs.nixlib.utils.ColorUtils;
 
 public final class ItemBuilder {
     private final ItemStack item;

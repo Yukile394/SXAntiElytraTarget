@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.gradleup.shadow' version '8.3.5'
 }
 
 group = 'studio.glace'
@@ -28,6 +29,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.github.ben-manes.caffeine:caffeine:3.1.8'
+    implementation 'com.zaxxer:HikariCP:5.1.0'
+    implementation 'org.json:json:20240303'
+    implementation 'org.yaml:snakeyaml:2.2'
     // Paper 1.21.4 API baseline; Java 21 is required by Minecraft 1.21+.
     compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
     compileOnly 'com.github.retrooper:packetevents-api:2.14.0'
@@ -81,3 +86,13 @@ tasks.withType(Test).configureEach {
     useJUnitPlatform()
 }
 
+
+tasks.shadowJar {
+    archiveClassifier = ''
+}
+tasks.jar {
+    enabled = false
+}
+tasks.build {
+    dependsOn tasks.shadowJar
+}

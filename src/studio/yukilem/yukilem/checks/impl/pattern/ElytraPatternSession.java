@@ -1,7 +1,7 @@
-package studio.glace.glantielytratarget.checks.impl.pattern;
+package studio.yukilem.yukilem.checks.impl.pattern;
 
 import org.jetbrains.annotations.NotNull;
-import studio.glace.glantielytratarget.libs.nixlib.collection.LongSampleQueue;
+import studio.yukilem.yukilem.libs.nixlib.collection.LongSampleQueue;
 
 public final class ElytraPatternSession {
     public LongSampleQueue intervals;

@@ -1,4 +1,4 @@
-package studio.glace.glantielytratarget.config;
+package studio.yukilem.yukilem.config;
 
 public final class LangKeys {
     public static final String GENERAL_RELOAD_SUCCESS = "general.reload-success";

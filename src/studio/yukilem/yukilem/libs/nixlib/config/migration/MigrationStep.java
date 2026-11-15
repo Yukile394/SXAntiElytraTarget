@@ -1,6 +1,6 @@
-package studio.glace.glantielytratarget.libs.nixlib.config.migration;
+package studio.yukilem.yukilem.libs.nixlib.config.migration;
 
-import studio.glace.glantielytratarget.libs.nixlib.config.migration.MigrationContext;
+import studio.yukilem.yukilem.libs.nixlib.config.migration.MigrationContext;
 
 @FunctionalInterface
 public interface MigrationStep {
