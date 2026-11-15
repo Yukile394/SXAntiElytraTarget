@@ -1,0 +1,70 @@
+# glAntiElytraTarget — Bukkit plugin descriptor. Do not edit unless you know what you are doing.
+name: glAntiElytraTarget
+version: '2.0.4'
+main: studio.glace.glantielytratarget.glAntiElytraTarget
+api-version: '1.21'
+authors: [Nixlory]
+description: Advanced Anti-Elytra Target Detection System
+folia-supported: true
+depend: [packetevents]
+softdepend: [LuckPerms, PlaceholderAPI, WorldGuard, ViaVersion, ViaBackwards, ViaRewind, ProtocolSupport]
+
+permissions:
+  glantielytratarget.*:
+    description: Gives access to all glAntiElytraTarget commands
+    children:
+      glantielytratarget.alerts: true
+      glantielytratarget.reload: true
+      glantielytratarget.help: true
+      glantielytratarget.bypass: true
+      glantielytratarget.updatechecker.notify: true
+      glantielytratarget.profile: true
+      glantielytratarget.profile.teleport: true
+      glantielytratarget.profile.clear: true
+      glantielytratarget.profile.violations: true
+      glantielytratarget.data.reset: true
+    default: op
+  
+  glantielytratarget.alerts:
+    description: Allows players to toggle alerts
+    default: op
+
+  glantielytratarget.profile:
+    description: Allows opening a player's anticheat profile
+    default: op
+
+  glantielytratarget.profile.teleport:
+    description: Allows teleporting to a player from their profile
+    default: op
+
+  glantielytratarget.profile.clear:
+    description: Allows resetting a player's violations from their profile
+    default: op
+
+  glantielytratarget.profile.violations:
+    description: Allows viewing a player's violation history
+    default: op
+
+  glantielytratarget.data.reset:
+    description: Allows resetting stored violation data
+    default: op
+
+  glantielytratarget.alerts.join:
+    description: Automatically enables alerts on join if enabled in config
+    default: op
+  
+  glantielytratarget.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  
+  glantielytratarget.help:
+    description: Allows viewing help messages
+    default: true
+    
+  glantielytratarget.bypass:
+    description: Bypasses Elytra Target detection
+    default: op
+
+  glantielytratarget.updatechecker.notify:
+    description: Receives update notifications on join
+    default: op

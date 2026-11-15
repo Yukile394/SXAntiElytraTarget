@@ -1,0 +1,123 @@
+Summary for C:/Users/rextro/AppData/Local/Temp/claude/C--Users-rextro-Desktop-gldeobf2-0-4/1ff62791-b92b-4c59-9410-0ccf8650df85/scratchpad/full.jar
+Decompiled with CFR 0.152
+
+
+studio.glace.config.MetricsConfig
+----------------------------
+
+readFile(java.io.File )
+  Unable to fully structure code
+
+
+studio.glace.glantielytratarget.checks.impl.CombatCheck
+----------------------------
+
+lambda$onAttack$0(org.bukkit.entity.Player int java.util.UUID long )
+  Unable to fully structure code
+
+
+studio.glace.glantielytratarget.checks.impl.HotbarOrderCheck
+----------------------------
+
+deliverFlag(org.bukkit.entity.Player com.github.retrooper.packetevents.protocol.player.User java.util.UUID studio.glace.glantielytratarget.checks.impl.HotbarOrderCheck$State )
+  Loose catch block
+
+
+studio.glace.glantielytratarget.checks.impl.SequenceCheck
+----------------------------
+
+onUseItem(studio.glace.glantielytratarget.packet.PacketContext )
+  Unable to fully structure code
+
+
+studio.glace.glantielytratarget.checks.impl.ShootCheck
+----------------------------
+
+onUseItem(studio.glace.glantielytratarget.packet.PacketContext )
+  Unable to fully structure code
+
+
+studio.glace.glantielytratarget.commands.SupportCommand
+----------------------------
+
+unregister()
+  Loose catch block
+
+
+studio.glace.glantielytratarget.config.settings.DiscordSettings
+----------------------------
+
+parseBoolean(java.lang.Object boolean )
+  Handled duff style switch with additional control
+
+
+studio.glace.glantielytratarget.data.FlagRepository
+----------------------------
+
+loadNameIndex()
+  Loose catch block
+
+
+studio.glace.glantielytratarget.libs.hikari.pool.HikariPool
+----------------------------
+
+getConnection(long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[WHILELOOP]], but top level block is 2[TRYBLOCK]
+
+
+studio.glace.glantielytratarget.libs.nixlib.database.HikariDatabase
+----------------------------
+
+queryOne(java.lang.String studio.glace.glantielytratarget.libs.nixlib.database.RowMapper<T> java.lang.Object[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+studio.glace.glantielytratarget.menu.MenuItemFactory
+----------------------------
+
+slot(java.util.Map int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+studio.glace.glantielytratarget.menu.ViolationsMenu
+----------------------------
+
+open(org.bukkit.entity.Player java.lang.String java.util.UUID java.util.List int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+studio.glace.glantielytratarget.packet.handler.PacketOrderHandler
+----------------------------
+
+update(com.github.retrooper.packetevents.event.PacketReceiveEvent studio.glace.glantielytratarget.packet.state.PacketOrderState org.bukkit.entity.Player studio.glace.glantielytratarget.packet.PacketContext java.util.function.BiConsumer<studio.glace.glantielytratarget.packet.PacketContext, studio.glace.glantielytratarget.packet.state.PacketOrderState> )
+  Handled duff style switch with additional control
+
+
+studio.glace.glantielytratarget.platform.runtime.RuntimeJarDigest
+----------------------------
+
+jarHash(java.io.File )
+  Unable to fully structure code
+segmentForClass(java.io.File java.lang.String )
+  Unable to fully structure code
+segmentForBootGateClasses(java.io.File )
+  Unable to fully structure code
+segmentForCheckClasses(java.io.File )
+  Unable to fully structure code
+
+
+studio.glace.glantielytratarget.platform.runtime.RuntimeVerifyHttp
+----------------------------
+
+resolvePublicIp()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: non catch before exception catch block
+postOnce(java.lang.String studio.glace.glantielytratarget.libs.json.JSONObject )
+  Unable to fully structure code
+
+
+studio.glace.glantielytratarget.util.combat.CombatEnvironment
+----------------------------
+
+intersectsCobweb(org.bukkit.entity.Player )
+  Unable to fully structure code
+Extracted 27 resource files to C:\Users\rextro\AppData\Local\Temp\claude\C--Users-rextro-Desktop-gldeobf2-0-4\1ff62791-b92b-4c59-9410-0ccf8650df85\scratchpad\outsrc

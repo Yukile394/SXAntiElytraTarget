@@ -1,0 +1,58 @@
+checks:
+  hotbar-order-check:
+    enabled: true
+
+  sequence-check:
+    enabled: true
+
+  consistency-check:
+    enabled: true
+
+  fw-input-check:
+    enabled: true
+
+  shoot-check:
+    enabled: true
+
+  pivot-check:
+    enabled: true
+    min-yaw-d: 50
+    min-pitch-d: 35
+    req: 2
+    win-ms: 7000
+
+heuristic-checks:
+  combat-check:
+    enabled: true
+    reqh: 5
+    reqf: 8
+    win-ms: 7200
+    max-h-d: 12
+    max-v-d: 10
+    phase-b:
+      slice-b: 20
+      reqh: 4
+      reqf: 8
+      win-ms: 7000
+      max-h-d: 12
+      max-v-d: 10
+
+  elytra-pattern-check:
+    enabled: true
+    samp-count: 6
+    required-samp-tight: 4
+    ms-range: 40
+    min-cl-ms: 200
+    max-cl-ms: 1005
+    win-ms: 10000
+    target-track:
+      enabled: true
+      require-hit: true
+      win-sech: 8
+      require-looking-at-target: false
+      look-deg-t: 20
+      max-h-d: 16
+      max-v-d: 7
+
+# Do not change this
+checks-version: 2.0.5

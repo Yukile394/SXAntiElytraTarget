@@ -1,0 +1,77 @@
+# Commands run when a check flags
+#
+# Placeholders: %player% %check_name% %vl% %ms% %tps%
+# Prefixes: [ALERT] staff chat, [WEBHOOK] Discord, no prefix = console command
+# Thresholds: 3 = at vl 3, "3:3" = every 3rd vl (3, 6, 9…)
+# Matcher: * = all checks, Name = include, !Name = exclude
+
+# Seconds until violation level decays
+remove-violations-after: 600
+
+profiles:
+  hotbar-order-check:
+    checks:
+      - HotbarOrderCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  sequence-check:
+    checks:
+      - SequenceCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  consistency-check:
+    checks:
+      - ConsistencyCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  fw-input-check:
+    checks:
+      - FWInputCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  shoot-check:
+    checks:
+      - ShootCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  pivot-check:
+    checks:
+      - PivotCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  combat-check:
+    checks:
+      - CombatCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+  elytra-pattern-check:
+    checks:
+      - ElytraPatternCheck
+    commands:
+      "1:1":
+        - "[ALERT]"
+        - "[WEBHOOK]"
+
+# Do not change this
+punishments-version: 2.0.5

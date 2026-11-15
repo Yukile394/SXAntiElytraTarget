@@ -1,0 +1,89 @@
+# Turkish (tr). MiniMessage format: https://docs.papermc.io/adventure/minimessage/format
+
+prefix: <gradient:#E82E3D:#F8575E><bold>glAET</bold></gradient> <dark_gray>»
+
+general:
+  reload-success: "{prefix} <#80FF00>Eklenti yeniden yüklendi!"
+  reload-failed: "{prefix} <#FF3333>Yeniden yükleme başarısız. Ayrıntılar için konsolu kontrol edin."
+  no-permission: "{prefix} <#FF3333>Bu komutu kullanmak için yetkiniz yok!"
+  players-only: "{prefix} <#FF3333>Bu komut sadece oyuncular tarafından kullanılabilir!"
+  unknown-command: "{prefix} <#FF3333>Bilinmeyen komut. Kullanılabilir komutlar için /%cmd% %help% yazın."
+  wrong-args: "{prefix} <#FF3333>Hatalı argüman. Kullanım: <#FF3333>%usage%"
+
+alerts:
+  enabled: "{prefix} <#E8E8E8>Uyarılar <#80FF00>etkinleştirildi."
+  disabled: "{prefix} <#E8E8E8>Uyarılar <#FF3333>devre dışı bırakıldı."
+  auto-enabled: "{prefix} <#E8E8E8>Uyarılar <#80FF00>otomatik olarak etkinleştirildi<gray>."
+  message: "{prefix} <click:run_command:/tp %player%><#FF3333>%player% <#E8E8E8>tespit edildi <dark_gray>[<#FF3333>%check_name%<dark_gray>] <#FF3333>%vl%x <dark_gray>[<#FF3333>%ms%ms<dark_gray>]</click>"
+  ban-message: "{prefix} <#FF3333>%player% <#E8E8E8>ElytraTarget kullanımından yasaklandı <dark_gray>[<#FF3333>%check_name%<dark_gray>] <#FF3333>%vl%x <dark_gray>[<#FF3333>%ms%ms<dark_gray>]"
+  hover:
+    - " <#6A6A6A>● <#FF3333><bold>%player%</bold>"
+    - ""
+    - " <#6A6A6A>▪ <gray>Dünya: <#FF3333>%world%"
+    - " <#6A6A6A>▪ <gray>Konum: <#FF3333>%x%, %y%, %z%"
+    - ""
+    - " <#6A6A6A>▪ <gray>Kontrol: <#FF3333>%check_name%"
+    - " <#6A6A6A>▪ <gray>Violasyon: <#FF3333>%vl%<#FF3333>x"
+    - " <#6A6A6A>▪ <gray>Ping: <#FF3333>%ms%<#FF3333>ms"
+    - " <#6A6A6A>▪ <gray>TPS: <#FF3333>%tps%"
+    - ""
+    - " <#6A6A6A>▪ <gradient:#FF3333:#FF6666>Oyuncuya ışınlanmak için tıkla.</gradient>"
+
+offhand:
+  warning: "{prefix} <#FF3333>Sol elindeyken roket kullanamazsın!"
+
+update:
+  message:
+    - ""
+    - "{prefix} <#80FF00>Yeni bir güncelleme mevcut!"
+    - ""
+    - "  <gray>Mevcut: <#FF3333>%current%"
+    - "  <gray>Son: <#67CD00>%latest%"
+    - ""
+    - "  <gray>İndir: <aqua><underlined>https://builtbybit.com/resources/75799</underlined>"
+    - ""
+
+menu:
+  profile-title: <black>%player% ᴀᴅʟı ᴏʏᴜɴᴄᴜɴᴜɴ ᴘʀᴏꜰɪʟɪ
+  violations-title: <black>%player% ᴠɪᴏʟᴀѕʏᴏɴʟᴀʀı (ѕᴀʏꜰᴀ %page%/%maxpage%)
+  confirm-title: <black>ᴏɴᴀʏʟᴀ
+  confirm-clear-vl: "%player% adlı oyuncunun tüm violasyonları sıfırlansın mı?"
+  confirm-data-reset: "%target% için %type% sıfırlansın mı?"
+  teleport-offline: "{prefix} <#FF3333>%player% çevrimdışı, ışınlanılamıyor."
+  teleported: "{prefix} <#80FF00><#67CD00>%player%<#80FF00> oyuncusuna ışınlandın."
+  violations-cleared: "{prefix} <#80FF00><#67CD00>%player%<#80FF00> oyuncusunun tüm violasyonları sıfırlandı."
+  status-online: <#80FF00>Çevrimiçi
+  status-offline: <#FF3333>Çevrimdışı
+  "yes": <#80FF00>Evet
+  "no": <#FF3333>Hayır
+
+data-reset:
+  profile-no-data: "{prefix} <#FF3333><#BA2525>%player%<#FF3333> için violasyon verisi bulunamadı."
+  no-data: "{prefix} <#FF3333><#BA2525>%player%<#FF3333> için veri bulunamadı."
+  target-all: "%all%"
+  success-all: "{prefix} <#80FF00>Tüm oyuncular için <#67CD00>%type%<#80FF00> sıfırlandı."
+  success-player: "{prefix} <#80FF00><#67CD00>%player%<#80FF00> için <#67CD00>%type%<#80FF00> sıfırlandı."
+  console-confirm: "{prefix} <#FFCC33>Onaylamak için çalıştır: <#FF3333>/%cmd% %data% %reset% %type% %target% %confirm%"
+
+commands:
+  usage:
+    profile: /%cmd% %profile% <oyuncu>
+    data-reset: /%cmd% %data% %reset% <%violations_type%|%total_violations_type%> <%all%|oyuncu>
+    alerts: /%cmd% %alerts%
+    reload: /%cmd% %reload%
+    help: /%cmd% %help%
+  main:
+    usage:
+      - <dark_gray><strikethrough>-----------------------------------------------------</strikethrough>
+      - ""
+      - "  <gradient:#FF3333:#FF5555><bold>glAntiElytraTarget</bold></gradient> Komutlar"
+      - ""
+      - "  <#FF3333>/%cmd% %alerts% <dark_gray>- <gray>Uyarıları aç/kapat"
+      - "  <#FF3333>/%cmd% %reload% <dark_gray>- <gray>Yapılandırmayı yeniden yükle"
+      - "  <#FF3333>/%cmd% %profile% <oyuncu> <dark_gray>- <gray>Bir oyuncunun profilini görüntüle"
+      - "  <#FF3333>/%cmd% %data% %reset% <dark_gray>- <gray>Kayıtlı violasyon verisini sıfırla"
+      - "  <#FF3333>/%cmd% %help% <dark_gray>- <gray>Bu yardım mesajını göster"
+      - ""
+      - <dark_gray><strikethrough>-----------------------------------------------------</strikethrough>
+
+language-version: 2.0.0

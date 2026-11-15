@@ -1,0 +1,53 @@
+# Discord webhook for [WEBHOOK] in punishments.yml
+# Placeholders: %player% %check_name% %vl% %ms% %tps%
+discord:
+  # Webhook URL. Blank disables
+  webhook-url: https://discord.com/api/webhooks/xxxxxxxx
+  # Override bot name. Blank = Discord default
+  username: ""
+  # Override avatar URL. Blank = Discord default
+  avatar-url: ""
+  # Text above the embed. Blank = none
+  content: ""
+  embed:
+    # false = send content only
+    enabled: true
+    # Embed title
+    title: Elytra Target Detection
+    # Clickable title URL. Blank = none
+    url: ""
+    # Embed body lines
+    description:
+      - "**Player:** `%player%`"
+      - "**Check:** `%check_name%`"
+      - ""
+      - "**Violations:** %vl%x"
+      - "**Ping:** %ms%ms"
+      - "**Server TPS:** %tps%"
+    # Hex colour
+    color: "#FF3333"
+    # Show timestamp
+    timestamp: true
+    author:
+      # Author name
+      name: glAntiElytraTarget
+      # Author link. Blank = none
+      url: ""
+      # Author icon. Blank = none
+      icon-url: ""
+    footer:
+      # Footer text
+      text: glAntiElytraTarget Protection System
+      # Footer icon. Blank = none
+      icon-url: ""
+    image:
+      # Large image URL. Blank = none
+      url: ""
+    thumbnail:
+      # Thumbnail URL. Blank = none
+      url: ""
+    # Extra embed fields
+    fields: []
+
+# Do not change this
+webhook-version: 2.0.0

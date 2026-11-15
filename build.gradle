@@ -1,0 +1,83 @@
+plugins {
+    id 'java'
+}
+
+group = 'studio.glace'
+version = '2.0.4'
+
+base {
+    archivesName = 'glAntiElytraTarget'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+    withSourcesJar()
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url = 'https://repo.codemc.io/repository/maven-public/' }
+    maven { url = 'https://jitpack.io' }
+    maven { url = 'https://maven.enginehub.org/repo/' }
+    maven { url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
+    maven { url = 'https://repo.viaversion.com' }
+    maven { url = 'https://repo.opencollab.dev/main/' }
+}
+
+dependencies {
+    // Paper 1.21.4 API baseline; Java 21 is required by Minecraft 1.21+.
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+    compileOnly 'com.github.retrooper:packetevents-api:2.14.0'
+
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    compileOnly 'org.jetbrains:annotations:24.1.0'
+    compileOnly 'me.clip:placeholderapi:2.11.6'
+    compileOnly 'com.sk89q.worldguard:worldguard-bukkit:7.0.13'
+    compileOnly 'com.viaversion:viaversion-api:5.12.2'
+    compileOnly 'org.geysermc.floodgate:api:2.2.3-SNAPSHOT'
+    compileOnly 'org.geysermc.geyser:api:2.4.2-SNAPSHOT'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+            exclude '**/package-info.java'
+        }
+        resources {
+            srcDirs = ['src']
+            exclude '**/*.java'
+            exclude 'META-INF/**'
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+    options.compilerArgs += ['-parameters']
+}
+
+processResources {
+    filteringCharset = 'UTF-8'
+}
+
+tasks.jar {
+    archiveClassifier = ''
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes(
+            'Implementation-Title': 'glAntiElytraTarget',
+            'Implementation-Version': project.version
+        )
+    }
+}
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
+

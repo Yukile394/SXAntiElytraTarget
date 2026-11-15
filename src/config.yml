@@ -1,0 +1,188 @@
+license-key: UNLOCKED
+
+# Language file: en, fr, tr, es, pl
+language: en
+
+# Violation storage. SQLite for one server, MySQL for shared setups
+# Restart required
+database:
+  # sqlite or mysql
+  type: sqlite
+  sqlite:
+    # File name in the plugin folder
+    file: data.db
+  mysql:
+    # Host address
+    host: localhost
+    # Port
+    port: 3306
+    # Database name
+    database: glantielytratarget
+    # Username
+    username: root
+    # Password
+    password: ""
+
+# Automatic punishment once a player reaches a violation count on a check profile
+auto-punish:
+  # Enable automatic kick/ban
+  enabled: true
+  # KICK or BAN
+  type: KICK
+  # Violations needed (per check profile, see punishments.yml) before the punishment
+  violations: 5
+  # Console command used when type is KICK. Placeholders: %player% %check_name% %vl% %ms% %tps%
+  kick-command: "kick %player% glAntiElytraTarget %check_name% (vl %vl%, %ms%ms)"
+  # Console command used when type is BAN
+  ban-command: "ban %player% glAntiElytraTarget %check_name% (vl %vl%, %ms%ms)"
+
+# Chat message shown to everyone when a player is kicked or banned by the plugin
+# Colors: &#RRGGBB. Placeholders: %player% %check_name% %vl% %ms% %tps%
+kick-broadcast:
+  enabled: true
+  lines:
+    - "&#E82E3DGl&#E82F3EAn&#E92F3Et&#E9303Ei&#E9303FEl&#E9313Fyt&#E93140r&#E93240a&#EA3240T&#EA3241a&#EA3341rge&#EA3442t &#EB3442S&#EB3543un&#EB3643uc&#EB3644u&#EB3744da&#EC3744n &#EC3845At&#EC3946ılm&#ED3A46a"
+    - "&#ED3A47A&#ED3B47tı&#ED3B48l&#ED3C48an &#EE3D49Kiş&#EE3E4Ai - &#EF3F4B%player%"
+    - "&#EF414CHa&#F0414Dn&#F0424Dgi &#F0434ECh&#F0444Ee&#F1444Fck&#F1454Fde&#F14550n &#F14650A&#F14651t&#F24751ıld&#F24852ı - &#F34953%check_name%"
+    - "&#F44D56Kac &#F54E57Ke&#F54F57r&#F54F58e &#F55058A&#F55059t&#F55159ı&#F65159ld&#F6525Aı - &#F6535B%vl%"
+
+# Plugin-wide detection settings
+detection:
+  block-offhand-rocket-use:
+    # Block firing rockets from the off-hand
+    enabled: true
+  damage-reduction:
+    # Lower damage from flagged players
+    enabled: true
+    # Violations needed before reduction starts
+    violations: 2
+    # Damage removed, not kept. 0.1 = 10% cut, 0.9 = 90% cut, 1.0 = no damage
+    multiplier: 0.9
+    # Duration after last violation in ticks. 20 = 1 second. Default: 200
+    duration: 200
+  # WorldGuard region bypass settings
+  worldguard:
+    # Enable named-region bypass (disabled-regions). Does not affect pvp-disabled-regions
+    enabled: true
+    # Regions that skip the selected checks. Use world:region or region
+    disabled-regions:
+      - world:spawn
+    # Checks skipped in the regions above. Use ALL for every check
+    disabled-checks:
+      - HotbarOrderCheck
+      - SequenceCheck
+      - ConsistencyCheck
+      - ShootCheck
+      - FWInputCheck
+      - ElytraPatternCheck
+      - CombatCheck
+      - PivotCheck
+    pvp-disabled-regions:
+      # Skip selected checks where WorldGuard PVP is deny, invincible is allow, or world PVP is off
+      enabled: true
+      # Checks skipped in those PVP-off areas. Use ALL for every check
+      disabled-checks:
+        - ConsistencyCheck
+        - ShootCheck
+        - CombatCheck
+        - PivotCheck
+
+# How long a hit target stays tracked
+combat:
+  # Milliseconds after last hit. Default: 8000
+  target-expiry-ms: 8000
+
+# Pause detections during lag
+lag-protection:
+  tps:
+    # Pause when TPS is too low
+    enabled: true
+    # Pause below this TPS. Default: 18.0
+    min-tps: 18.0
+  ping:
+    # Pause when many players have high ping
+    enabled: false
+    # Ping counted as high
+    max-ping: 500
+    # High-ping players needed to pause
+    min-affected-players: 40
+
+# Staff alert behaviour
+alerts:
+  # Enable alerts when staff join
+  enable-on-join: true
+  # Message when alerts are toggled
+  notify-on-enable: true
+
+# Extra console logging
+debug:
+  enabled: false
+
+# Update checks and join notifications
+update-checker:
+  enabled: true
+  # Check on plugin enable. Restart required
+  check-on-enable: true
+  # Notify glantielytratarget.updatechecker.notify on join
+  notify-on-join: true
+
+# Command names and aliases.
+# Restart required
+commands:
+  name: glaet
+  aliases:
+    - aet
+    - glantielytratarget
+    - elytratargetac
+    - antielytratarget
+  alerts: alerts
+  reload: reload
+  help: help
+  profile: profile
+  data: data
+  data-sub:
+    # Reset sub-command word
+    reset: reset
+    # Per-check violations type
+    violations-type: violations
+    # Total violations type
+    total-violations-type: total_violations
+    # All players target word
+    all: all
+    # All players alias
+    all-alias: "*"
+    # Confirm word for destructive resets
+    confirm: confirm
+
+# Violation history in /aet profile
+violation-history:
+  # Max stored per player. Default: 250
+  max-per-player: 250
+  # true = drop oldest when full, false = stop recording
+  overwrite-oldest: true
+
+# Date/time in violation menus (%date%, %ago%)
+menu-time:
+  # %date% format (Java SimpleDateFormat)
+  date-format: dd/MM/yyyy HH:mm:ss
+  time:
+    # Seconds suffix
+    second: s
+    # Minutes suffix
+    minute: m
+    # Hours suffix
+    hour: h
+    # Days suffix
+    day: d
+  # Relative-time style for the %ago% placeholder.
+  # 1 = clock style (01:25:35)
+  # 2 = compact single unit (20m)
+  # 3 = labelled parts (01h 25m 35s)
+  timer-format: 3
+
+# Register /elytratarget info command
+# Restart required
+support-command: true
+
+# Do not change this
+config-version: 2.0.2

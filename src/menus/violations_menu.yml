@@ -1,0 +1,72 @@
+# Violations list from profile menu. 6 rows, slots 0-44 for entries
+# Title from lang file (menu-violations-title). %date% and %ago% use config.yml menu-time
+# Actions: [close] [refresh] [prevpage] [nextpage] [sound]
+# Placeholders: %index% %total% %seq% %check% %date% %ago% %bps% %client% %ping% %tps% %world% %x% %y% %z% %yaw% %pitch% %gamemode% %gliding% %on_ground% %sprinting%
+rows: 6
+open-actions:
+  - "[sound] BLOCK_ENDER_CHEST_OPEN 0.5 1.4"
+close-actions:
+  - "[sound] BLOCK_ENDER_CHEST_CLOSE 0.5 1.2"
+# Bottom row filler. Page buttons replace slots 45 and 53
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+  hide-tooltip: true
+  slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+# Template for each violation entry
+violation-item:
+  material: PAPER
+  name: <#FF5555>#%index% <dark_gray>• <#FFB454>%check%
+  lore:
+    - ""
+    - " <#6A6A6A>▪ <gray>Date: <#F66868>%date% <dark_gray>(<#F66868>%ago% ago<dark_gray>)"
+    - " <#6A6A6A>▪ <gray>Violation #: <#F66868>%seq%"
+    - ""
+    - " <#6A6A6A>▪ <gray>BPS: <#F66868>%bps%"
+    - " <#6A6A6A>▪ <gray>Client: <#F66868>%client%"
+    - " <#6A6A6A>▪ <gray>Ping: <#F66868>%ping%ms"
+    - " <#6A6A6A>▪ <gray>TPS: <#F66868>%tps%"
+    - ""
+    - " <#6A6A6A>▪ <gray>World: <#F66868>%world%"
+    - " <#6A6A6A>▪ <gray>Location: <#F66868>%x%, %y%, %z%"
+    - " <#6A6A6A>▪ <gray>Direction: <#F66868>yaw %yaw%, pitch %pitch%"
+    - ""
+    - " <#6A6A6A>▪ <gray>Gamemode: <#F66868>%gamemode%"
+    - " <#6A6A6A>▪ <gray>Gliding: %gliding%"
+    - " <#6A6A6A>▪ <gray>On ground: %on_ground%"
+    - " <#6A6A6A>▪ <gray>Sprinting: %sprinting%"
+    - ""
+    - <#6A6A6A>» <#FEE723><u>Click</u> to refresh!
+  actions:
+    all-click:
+      - "[sound] UI_BUTTON_CLICK 0.6 1.3"
+      - "[refresh]"
+items:
+  previous-page:
+    slot: 45
+    material: ARROW
+    name: <#FEFF68>« ᴘʀᴇᴠɪᴏᴜѕ ᴘᴀɢᴇ
+    actions:
+      all-click:
+        - "[sound] UI_BUTTON_CLICK 0.6 1.3"
+        - "[prevpage]"
+  next-page:
+    slot: 53
+    material: ARROW
+    name: <#FEFF68>ɴᴇхᴛ ᴘᴀɢᴇ »
+    actions:
+      all-click:
+        - "[sound] UI_BUTTON_CLICK 0.6 1.3"
+        - "[nextpage]"
+
+# Do not change this
+menu-version: 2.0.0

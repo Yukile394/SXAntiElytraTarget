@@ -1,0 +1,4 @@
+[CHANGE] Removed SettleCheck
+[FIX] Removed false flags during lag, rapid inventory rocket use, and fast rocket-to-sword transitions.
+[FIX] Plugin shutdown cleanup now runs outside the server thread, preventing a stalled dependency or service from freezing server shutdown.
+[IMPROVED] Updated the WorldGuard API to 7.0.17

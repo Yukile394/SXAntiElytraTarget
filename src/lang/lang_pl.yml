@@ -1,0 +1,89 @@
+# Polish (pl). MiniMessage format: https://docs.papermc.io/adventure/minimessage/format
+
+prefix: <gradient:#E82E3D:#F8575E><bold>glAET</bold></gradient> <dark_gray>»
+
+general:
+  reload-success: "{prefix} <#80FF00>Plugin przeładowany!"
+  reload-failed: "{prefix} <#FF3333>Przeładowanie nie powiodło się. Sprawdź konsolę po szczegóły."
+  no-permission: "{prefix} <#FF3333>Nie masz uprawnień do użycia tej komendy!"
+  players-only: "{prefix} <#FF3333>Ta komenda może być używana tylko przez graczy!"
+  unknown-command: "{prefix} <#FF3333>Nieznana komenda. Użyj /%cmd% %help%, aby zobaczyć dostępne komendy."
+  wrong-args: "{prefix} <#FF3333>Nieprawidłowy argument. Użycie: <#FF3333>%usage%"
+
+alerts:
+  enabled: "{prefix} <#E8E8E8>Alerty <#80FF00>włączone."
+  disabled: "{prefix} <#E8E8E8>Alerty <#FF3333>wyłączone."
+  auto-enabled: "{prefix} <#E8E8E8>Alerty zostały <#80FF00>automatycznie włączone<gray>."
+  message: "{prefix} <click:run_command:/tp %player%><#FF3333>%player% <#E8E8E8>wykryty za <dark_gray>[<#FF3333>%check_name%<dark_gray>] <#FF3333>%vl%x <dark_gray>[<#FF3333>%ms%ms<dark_gray>]</click>"
+  ban-message: "{prefix} <#FF3333>%player% <#E8E8E8>zbanowany za używanie ElytraTarget <dark_gray>[<#FF3333>%check_name%<dark_gray>] <#FF3333>%vl%x <dark_gray>[<#FF3333>%ms%ms<dark_gray>]"
+  hover:
+    - " <#6A6A6A>● <#FF3333><bold>%player%</bold>"
+    - ""
+    - " <#6A6A6A>▪ <gray>Świat: <#FF3333>%world%"
+    - " <#6A6A6A>▪ <gray>Lokalizacja: <#FF3333>%x%, %y%, %z%"
+    - ""
+    - " <#6A6A6A>▪ <gray>Kontrola: <#FF3333>%check_name%"
+    - " <#6A6A6A>▪ <gray>Wykrycia: <#FF3333>%vl%<#FF3333>x"
+    - " <#6A6A6A>▪ <gray>Ping: <#FF3333>%ms%<#FF3333>ms"
+    - " <#6A6A6A>▪ <gray>TPS: <#FF3333>%tps%"
+    - ""
+    - " <#6A6A6A>▪ <gradient:#FF3333:#FF6666>Kliknij, aby teleportować się do gracza.</gradient>"
+
+offhand:
+  warning: "{prefix} <#FF3333>Nie możesz używać rakiet, gdy są w drugiej ręce!"
+
+update:
+  message:
+    - ""
+    - "{prefix} <#80FF00>Dostępna nowa aktualizacja!"
+    - ""
+    - "  <gray>Obecna: <#FF3333>%current%"
+    - "  <gray>Najnowsza: <#67CD00>%latest%"
+    - ""
+    - "  <gray>Pobierz: <aqua><underlined>https://builtbybit.com/resources/75799</underlined>"
+    - ""
+
+menu:
+  profile-title: <black>ᴘʀᴏꜰɪʟ %player%
+  violations-title: <black>ᴡʏᴋʀᴏᴄᴢᴇɴɪᴀ %player% (ѕᴛʀᴏɴᴀ %page%/%maxpage%)
+  confirm-title: <black>ᴘᴏᴛᴡɪᴇʀᴅᴢ
+  confirm-clear-vl: "Zresetować wszystkie wykroczenia gracza %player%?"
+  confirm-data-reset: "Zresetować %type% dla %target%?"
+  teleport-offline: "{prefix} <#FF3333>%player% jest offline, nie można teleportować."
+  teleported: "{prefix} <#80FF00>Teleportowano do <#67CD00>%player%<#80FF00>."
+  violations-cleared: "{prefix} <#80FF00>Zresetowano wszystkie wykroczenia gracza <#67CD00>%player%<#80FF00>."
+  status-online: <#80FF00>Online
+  status-offline: <#FF3333>Offline
+  "yes": <#80FF00>Tak
+  "no": <#FF3333>Nie
+
+data-reset:
+  profile-no-data: "{prefix} <#FF3333>Nie znaleziono danych o wykroczeniach dla <#BA2525>%player%<#FF3333>."
+  no-data: "{prefix} <#FF3333>Nie znaleziono danych dla <#BA2525>%player%<#FF3333>."
+  target-all: "%all%"
+  success-all: "{prefix} <#80FF00>Zresetowano <#67CD00>%type%<#80FF00> dla wszystkich graczy."
+  success-player: "{prefix} <#80FF00>Zresetowano <#67CD00>%type%<#80FF00> dla <#67CD00>%player%<#80FF00>."
+  console-confirm: "{prefix} <#FFCC33>Potwierdź wykonując: <#FF3333>/%cmd% %data% %reset% %type% %target% %confirm%"
+
+commands:
+  usage:
+    profile: /%cmd% %profile% <gracz>
+    data-reset: /%cmd% %data% %reset% <%violations_type%|%total_violations_type%> <%all%|gracz>
+    alerts: /%cmd% %alerts%
+    reload: /%cmd% %reload%
+    help: /%cmd% %help%
+  main:
+    usage:
+      - <dark_gray><strikethrough>-----------------------------------------------------</strikethrough>
+      - ""
+      - "  <gradient:#FF3333:#FF5555><bold>glAntiElytraTarget</bold></gradient> Komendy"
+      - ""
+      - "  <#FF3333>/%cmd% %alerts% <dark_gray>- <gray>Przełącz alerty"
+      - "  <#FF3333>/%cmd% %reload% <dark_gray>- <gray>Przeładuj konfigurację"
+      - "  <#FF3333>/%cmd% %profile% <gracz> <dark_gray>- <gray>Wyświetl profil gracza"
+      - "  <#FF3333>/%cmd% %data% %reset% <dark_gray>- <gray>Zresetuj zapisane dane wykroczeń"
+      - "  <#FF3333>/%cmd% %help% <dark_gray>- <gray>Pokaż tę wiadomość pomocy"
+      - ""
+      - <dark_gray><strikethrough>-----------------------------------------------------</strikethrough>
+
+language-version: 2.0.0
