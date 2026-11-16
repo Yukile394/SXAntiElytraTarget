@@ -192,7 +192,7 @@ public final class PunishAnimation {
                 // Gardiyan (elder guardian) efekti
                 if (t % 50 == 0) {
                     try {
-                        player.spawnParticle(Particle.MOB_APPEARANCE, center, 1);
+                        player.spawnParticle(Particle.ELDER_GUARDIAN, center, 1);
                         if (sound) {
                             player.playSound(center, Sound.ENTITY_ELDER_GUARDIAN_CURSE, 1.0f, 1.0f);
                         }
