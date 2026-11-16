@@ -1,7 +1,7 @@
 # glAntiElytraTarget — Bukkit plugin descriptor. Do not edit unless you know what you are doing.
 name: glAntiElytraTarget
 version: '2.0.4'
-main: studio.glace.glantielytratarget.glAntiElytraTarget
+main: studio.yukilem.yukilem.glAntiElytraTarget
 api-version: '1.21'
 authors: [Nixlory]
 description: Advanced Anti-Elytra Target Detection System
@@ -24,7 +24,7 @@ permissions:
       glantielytratarget.profile.violations: true
       glantielytratarget.data.reset: true
     default: op
-  
+
   glantielytratarget.alerts:
     description: Allows players to toggle alerts
     default: op
@@ -52,15 +52,15 @@ permissions:
   glantielytratarget.alerts.join:
     description: Automatically enables alerts on join if enabled in config
     default: op
-  
+
   glantielytratarget.reload:
     description: Allows reloading the plugin configuration
     default: op
-  
+
   glantielytratarget.help:
     description: Allows viewing help messages
     default: true
-    
+
   glantielytratarget.bypass:
     description: Bypasses Elytra Target detection
     default: op
