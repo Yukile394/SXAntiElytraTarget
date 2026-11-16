@@ -70,6 +70,16 @@ final class ViolationCommandSink {
                 logger.warning(string2);
             }
         };
+        if (PunishAnimation.shouldAnimate(this.ctx, string) && player.isOnline()) {
+            platformScheduler.runGlobal(() -> {
+                if (!player.isOnline()) {
+                    runnable.run();
+                    return;
+                }
+                PunishAnimation.begin(this.ctx, player, placeholderContext, runnable);
+            });
+            return;
+        }
         platformScheduler.runGlobal(runnable);
     }
 
