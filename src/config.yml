@@ -36,6 +36,36 @@ auto-punish:
   # Console command used when type is BAN
   ban-command: "ban %player% glAntiElytraTarget %check_name% (vl %vl%, %ms%ms)"
 
+# Ban/kick oncesi animasyon: oyuncu hareket edemez ve hasar almaz, gardiyan efekti cikar,
+# lamalar yavasca doner ve tukurur, sonra kuculup renk degistirir, ardindan ban/kick calisir.
+# Placeholders: %player% %check_name% %vl% %ms% %tps%
+punish-animation:
+  enabled: true
+  # Animasyon oynatilacak konsol komutlari (komut adi)
+  commands:
+    - ban
+    - tempban
+    - ban-ip
+    - banip
+    - kick
+  # Lama sayisi (3-16)
+  llama-count: 8
+  # Oyuncuyla lamalar arasindaki mesafe (blok)
+  radius: 3.0
+  # Iki lama arasi bekleme (tick). Buyuk = daha yavas yuklenir. 20 tick = 1 sn
+  spawn-interval-ticks: 6
+  # Donus hizi (radyan/tick). Kucuk = daha yavas doner
+  rotation-speed: 0.04
+  # Son fazin suresi (tick): lamalar kuculur ve renk degistirir
+  baby-phase-ticks: 40
+  # Toplam sure (tick). Lamalarin cikma suresi + son faz suresinden kisa olamaz
+  duration-ticks: 140
+  sound: true
+  title: "&c&lBomm"
+  subtitle: "&7Target kullanırsan patlatırlar"
+  actionbar: true
+  actionbar-text: "&cCeza yukleniyor... &f%bar%"
+
 # Chat message shown to everyone when a player is kicked or banned by the plugin
 # Colors: &#RRGGBB. Placeholders: %player% %check_name% %vl% %ms% %tps%
 kick-broadcast:
