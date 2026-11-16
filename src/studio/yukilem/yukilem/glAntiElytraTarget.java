@@ -120,6 +120,10 @@ extends JavaPlugin {
         if (!this.shutdownStarted.compareAndSet(false, true)) {
             return;
         }
+        try {
+            studio.yukilem.yukilem.punishments.PunishAnimation.cleanupAll();
+        } catch (Throwable ignored) {
+        }
         PacketDispatcher packetDispatcher = this.packetDispatcher;
         this.packetDispatcher = null;
         SupportCommandPacketGuard supportCommandPacketGuard = this.supportCommandPacketGuard;
